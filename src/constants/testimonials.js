@@ -19,14 +19,14 @@ const testimonials = [
         id: 3,
         image: images.testimonial3, 
         name: 'John Parker', 
-        title: 'Customer',
+        title: 'Promoter',
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
     },    
     { 
         id: 4,
         image: images.testimonial4, 
         name: 'Ethna Rouse', 
-        title: 'Customer',
+        title: 'Talent Coach',
         content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
     },
 ];
