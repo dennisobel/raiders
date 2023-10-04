@@ -1,0 +1,63 @@
+/* Sidebar Post Card */
+.sidebar .post-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem; 
+    margin-bottom: 0.5rem;
+} 
+   
+/* Sidebar Post Cards Last child */
+.sidebar .post-item:last-child {
+    margin-bottom: 0;
+}
+  
+/* Sidebar Post Card Image */
+.sidebar .post-item img {
+    height: 8rem;
+    width: 10rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: var(--grey);
+}
+
+/* Sidebar Post Card Link */
+.sidebar .post-item a {
+    display: inline-block;
+    font-size: 25.6px;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--black);
+}
+
+/* Sidebar Post Card Link, On hover */
+.sidebar .post-item a:hover {
+    color: var(--main-color);
+}
+
+/* Sidebar Post Card Date */
+.sidebar .post-item h3 {
+    padding-top: 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 0.5rem;
+    font-size: 1.4rem;
+    color: var(--grey);
+}
+
+/* Sidebar Post Card Date Icon */
+.sidebar .post-item h3 .icon {
+    color: var(--main-color);
+}
+
+/* Sidebar Post Card Date Text */
+.sidebar .post-item h3 span {
+    font-weight: 400;
+}

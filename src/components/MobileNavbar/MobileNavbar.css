@@ -1,0 +1,59 @@
+@media (max-width: 991px) {
+
+    /* Mobile Menu */
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0; 
+        left: 0;
+        height: 100%; 
+        width: 30rem;
+        z-index: 10000;   
+        overflow-y: auto;
+        max-height: 100%;
+        background: var(--white);
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+        border: 0.1rem solid var(--main-color);
+        -webkit-box-shadow: var(--box-shadow);
+                box-shadow: var(--box-shadow);
+    }
+
+    /* Mobile Menu Scrollbar */
+    .mobile-menu::-webkit-scrollbar {
+        width: 0.8rem;
+    }
+
+    .mobile-menu::-webkit-scrollbar-thumb {
+        border-radius: 1rem;
+        background-color: var(--black);
+    }
+
+    .mobile-menu::-webkit-scrollbar-track {
+        background: var(--white);
+    }
+
+    /* Mobile Menu Close Button */
+    .mobile-menu #close-side-bar {
+        position: absolute;
+        top: 1rem;
+        right: 2rem;
+        font-size: 4rem;
+        cursor: pointer;
+        color: var(--main-color);
+    }
+
+    /* Mobile Menu Close Button, On Hover */
+    .mobile-menu #close-side-bar:hover {
+        -webkit-transform: rotate(90deg);
+                transform: rotate(90deg);
+        color: var(--secondary-color);
+    }
+
+    /* Mobile Navbar */
+    .mobile-menu .mobile-navbar {
+        padding-top: 6rem;
+    }
+}

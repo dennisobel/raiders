@@ -1,0 +1,17 @@
+/* All Comments section */
+.comments {
+  padding: 2rem 0;
+}
+
+/* Comments section title */
+.comments h4 {
+  padding-bottom: 0.5rem; 
+  font-size: 2.5rem; 
+  color: var(--black); 
+}
+
+/* Comments section replies */ 
+.comments .replies {
+  margin-left: 14rem;
+  margin-top: 0.5rem;
+}

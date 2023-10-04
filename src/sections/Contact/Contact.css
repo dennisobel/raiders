@@ -1,0 +1,212 @@
+.contact{
+    padding: 2rem 0;
+}
+
+/*----- 1- Contact Info -----*/
+/* Contact info container */
+.contact-info{
+    padding: 2rem 5%;
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Contact info item */
+.contact .contact-info .info-item{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 25rem;
+        flex: 1 1 25rem;
+    padding: 1rem;
+    min-height: 15rem;
+    background-color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+    border: var(--border);
+    position: relative;
+    padding-top: 4rem;
+    margin-top: 4rem;
+}
+
+/* Contact Info Icon */
+.contact .contact-info .info-item .icon{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 7rem;
+    width: 7rem;
+    font-size: 3rem;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color: var(--white);
+}
+
+/* Contact Info Title */
+.contact .contact-info .info-item h3{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding-bottom: 0.5rem;
+}
+
+/* Contact Info Text */
+.contact .contact-info .info-item p{
+    font-size: 1.4rem;
+    color: var(--grey);
+    padding-bottom: 0.5rem;
+    text-transform: none;
+}
+
+
+/*----- 2- Contact Form -----*/
+/* Contact form heading */
+.contact h3{
+    color: var(--white);
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+/* Contact form Container */
+.contact-container{
+    width: 100%;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/Contact/Contact.jpg");
+    background:         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/Contact/Contact.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 2rem 0;
+    padding: 4rem 5%;
+}
+
+/* Autofill input fields */
+.contact-form input:-webkit-autofill,
+.contact-form input:-webkit-autofill:hover,
+.contact-form input:-webkit-autofill:focus,
+.contact-form input:-webkit-autofill:active {
+    -webkit-text-fill-color: var(--white);
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+            transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Contact form Input Box Container */
+.contact-form .input-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+  
+/* Contact form Input field Inside Input Box */
+.contact-form .input-box .box{
+    width: 49%;
+}
+
+/* Contact form Input field */
+.contact-form .box{
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--white);
+    border-bottom: 0.2rem solid var(--white);
+    background-color: transparent;
+    text-transform: none;
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Contact form Input field, Placeholder text */
+.contact-form .box::-webkit-input-placeholder{
+    text-transform: capitalize;
+    color: var(--white);
+}
+.contact-form .box::-moz-placeholder{
+    text-transform: capitalize;
+    color: var(--white);
+}
+.contact-form .box:-ms-input-placeholder{
+    text-transform: capitalize;
+    color: var(--white);
+}
+.contact-form .box::placeholder{
+    text-transform: capitalize;
+    color: var(--white);
+}
+
+/* Contact form Messge Field */
+.contact-form textarea.box{
+    height: 20rem;
+    resize: none;
+}
+
+/* Contact form Button */
+.contact .contact-form button{
+    display: inline;
+    margin-top: 1rem;
+    border: 0.2rem solid var(--white);
+}
+
+/* Contact form Alert container */
+.contact .contact-form .alert{
+    font-size: 2rem;
+    color: var(--white);
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Contact form Alert Message */
+.contact .msg-alert{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+/*----- 3- Google Map -----*/
+.contact iframe{ 
+    width: 100%;
+    height: 30rem;
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+}

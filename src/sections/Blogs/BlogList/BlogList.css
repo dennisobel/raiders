@@ -1,0 +1,29 @@
+/* Blog List Container */
+.blog.list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; 
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    justify-content: center;
+    gap: 2rem;  
+}     
+
+/* Blog items container in Blog List */
+.blog-container.list .blog-item{
+    width: 100%;
+    margin-bottom: 1rem; 
+}
+
+/* Blog item image in list layout */
+.blog-container.list .blog-item .image{
+    height: 35rem;
+}
+
+/* Message when no blog items are found */
+.no-found{
+    font-size: 2.5rem;
+    font-weight: bold; 
+    color: var(--secondary-color);
+    text-transform: none;
+}

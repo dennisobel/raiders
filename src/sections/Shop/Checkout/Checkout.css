@@ -1,0 +1,103 @@
+/* checkout section Heading title */
+.checkout .heading h2{
+    font-size: 3.5rem;
+} 
+ 
+/* Checkout Form */
+.checkout form{
+    display: -webkit-box;
+    display: -ms-flexbox; 
+    display: flex;
+    -webkit-box-align: start; 
+    -ms-flex-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Checkout item */
+.checkout-item{  
+    padding: 1.5rem;
+    width: 100%;
+}
+
+/* Checkout section, Box-1 section */
+.checkout .box-1{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 60rem;
+        flex: 1 1 60rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout section, Box-2 section */
+.checkout .box-2{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 30rem;
+        flex: 1 1 30rem;
+}
+
+/* Checkout section, Box-2 container */
+.checkout .box-2 .container{
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+
+/*----- 1- Payment Method -----*/
+/* Payment methods Box container */
+/* Payment method item */
+.payment-methods .item {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+/* Payment method label */
+.payment-methods .item label {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+}
+
+/* Payment method input */
+.payment-methods .item input {
+    margin-right: 0.5rem;
+}
+
+/* Selected/Highlighted payment method label */
+.payment-methods .item input:checked + label,
+.payment-methods .item label:hover {
+    color: var(--main-color);
+}
+
+/* Payment method body */
+.payment-methods .item .payment-body {
+    display: none;
+}
+
+/* Payment method body paragraph */
+.payment-methods .item .payment-body p {
+    font-size: 1.6rem;
+    line-height: 2; 
+    color: var(--grey);
+    padding-top: 1rem;
+}
+
+/* Show payment method body when input is checked */
+.payment-methods .item > input:checked ~ .payment-body {
+    display: block;
+}
+
+/* Active payment method body */
+.payment-body.active {
+    display: block;
+} 
+
+/* Checkout section Button */
+.checkout form .btn{
+    width: 100%;
+    text-align: center; 
+    margin-top: 2rem;
+} 

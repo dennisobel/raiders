@@ -1,0 +1,175 @@
+/* Fixture Single */
+.fixture-single{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem; 
+} 
+
+/* Fixture Info */
+.fixture-info{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 70rem;
+      flex: 1 1 70rem;
+}
+
+/* Fixture Introduction */
+.fixture-info .fixture-intro{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/Fixture/Fixture.jpg");
+  background:         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/Fixture/Fixture.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Team Introduction */
+.fixture-info .fixture-intro .intro{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 2rem;
+}
+
+/* Team Result */
+.fixture-info .team-result{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Team Name Container */
+.fixture-info .team-result .name{
+  text-align: center;
+}
+
+/* Team Logo */
+.fixture-info .team-result .name img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Team Name */
+.fixture-info .team-result .name h3{
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--white);
+}
+
+/* Team Result Container */
+.fixture-info .team-result .result{
+  text-align: center;
+}
+
+/* Team Inning Score */
+.fixture-info .team-result .result h5{
+  font-size: 2rem;
+  color: var(--white);
+}
+
+/* Team Inning Overs Played */
+.fixture-info .team-result .result p{
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+/* Fixture content */
+.fixture-info .fixture-content{
+  text-align: center;
+}
+
+/* Fixture Date and Time */
+.fixture-info .time{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Fixture Venue */
+.fixture-info .venue{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Fixture Result */
+.fixture-info .result{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Match Details */
+.match-details{
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Match Details Title */
+.match-details .title{
+  background-color: var(--black);
+  color: var(--white);
+  border-bottom: 0.4rem solid var(--main-color);
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Match Details Content */
+.match-details .content{
+  padding: 1rem;
+}
+
+/* Match Details Item */
+.match-details .item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+/* Match Details Last Item */
+.match-details .item:last-child{
+  border: none;
+}
+
+/* Match Details Item Heding */
+.match-details .item h3{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+/* Match Details Item Value */
+.match-details .item p{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem; 
+  font-size: 1.4rem;
+}

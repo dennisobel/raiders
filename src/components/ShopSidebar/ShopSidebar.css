@@ -1,0 +1,47 @@
+/* Sidebar Product item */
+.shop-sidebar .product-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem; 
+}
+
+/* Hide the Product options */
+.shop-sidebar .product-item .image a{ 
+  display: none;
+}
+
+/* Sidebar Product item content */
+.shop-sidebar .product-item .content {
+  padding: 0rem;
+}
+
+/* Sidebar Product item image */
+.shop-sidebar .product-item .image img {
+  height: 8rem;
+  width: 8rem;
+}
+
+/* Hide the Sidebar Product item rating */
+.shop-sidebar .product-item .rating {
+  display: none;
+}
+
+/* Sidebar Product item Heading */
+.shop-sidebar .product-item h3 {
+  font-size: 2rem;
+  padding-bottom: 0.2rem;
+}
+
+/* Sidebar Product item price */
+.shop-sidebar .product-item .price {
+  font-size: 1.7rem;
+}
+
+/* Sidebar Product item price span */
+.shop-sidebar .product-item .price span {
+  font-size: 1.3rem;
+}  

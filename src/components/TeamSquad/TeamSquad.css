@@ -1,0 +1,95 @@
+/* Team Squad Section */
+.team-squad{
+  margin-bottom: 2rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--white);
+} 
+ 
+/* Team Name title */
+.team-squad .title{ 
+  background-color: var(--black);
+  color: var(--white);
+  border-bottom: 0.4rem solid var(--main-color);
+  padding: 1rem;
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Column headers for the squad */
+.team-squad .sub-heading{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+/* Column header Item */
+.team-squad .sub-heading h3{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+/* Column header First Item */
+.team-squad .sub-heading h3:first-child{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 5rem;
+      flex: 1 1 5rem;
+}
+
+/* Squad Details */
+.team-squad .squad-content{
+  padding: 1rem;
+}
+
+/* Each Player */
+.team-squad .squad-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+/* Last Player */
+.team-squad .squad-item:last-child{
+  border-bottom: none;
+}
+
+/* Player Number & Name */
+.team-squad .squad-item h3{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+/* Player number */
+.team-squad .squad-item h3:first-child{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 5rem; 
+      flex: 1 1 5rem; 
+  font-weight: 600;
+}
+
+/* Player playing role */
+.team-squad .squad-item p{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+  font-size: 1.5rem;
+  color: var(--grey);
+}

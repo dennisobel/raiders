@@ -1,0 +1,69 @@
+/* Fixture Item */
+.fixture-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; 
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+ 
+/* Fixture Item, On Hover */
+.fixture-item:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Team Logo and Name */
+.fixture-item .team-logo{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem; 
+      flex: 1 1 20rem;
+  text-align: center;
+}
+
+/* Team Logo */
+.fixture-item .team-logo img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+/* Team Name */
+.fixture-item .team-logo h3{
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+/* Fixture Content */
+.fixture-item .fixture-content{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40rem;
+      flex: 1 1 40rem;
+  text-align: center;
+} 
+
+/* Fixture Date and Time */
+.fixture-item .fixture-content .time{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+/* Fixture Venue */
+.fixture-item .fixture-content .venue{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* Fixture Result */
+.fixture-item .fixture-content .result{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--main-color);
+}

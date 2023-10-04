@@ -1,0 +1,111 @@
+/* Upcoming Events Container */
+.upcoming-events .box-container{
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+ 
+/* Event item */
+.event-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;  
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+/* Event item, On Hover */
+.event-item:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Fixture event */
+.event-item .fixture-event{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 70rem;
+      flex: 1 1 70rem; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Team Logo container */
+.event-item .team-logo{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 15rem;
+      flex: 1 1 15rem;
+  text-align: center;
+}
+
+/* Team Logo */
+.event-item .team-logo img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+}
+
+/* Team Name */
+.event-item .team-logo h3{
+  font-size: 1.8rem;
+  color: var(--secondary-color);
+}
+
+/* Fixture content container */
+.event-item .fixture-content{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40rem;
+      flex: 1 1 40rem;
+  text-align: center;
+}
+
+/* Event Time */
+.event-item .time{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--main-color);
+}
+
+/* Event Venue */
+.event-item .venue{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/* Action container */
+.event-item .action{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 5rem;
+      flex: 1 1 5rem;
+  height: 100%;
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+/* Action Links */
+.event-item .action a{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  color: var(--secondary-color);
+}
+
+/* Action Links, On Hover */
+.event-item .action a:hover{
+  color: var(--main-color);
+}

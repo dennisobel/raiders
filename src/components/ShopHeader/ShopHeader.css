@@ -1,0 +1,84 @@
+/* Shop header container */
+.shop-header {
+  padding-bottom: 1rem; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify; 
+  justify-content: space-between;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-wrap: wrap;  
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Showing products count */
+.shop-header .showing {
+  font-size: 1.6rem;
+  color: var(--grey);
+}
+
+/* Styles buttons */
+.shop-header .styles {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Styles button links */
+.shop-header .styles a {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+/* Styles button links, Hover */
+.shop-header .styles a:hover {
+  color: var(--main-color);
+}  
+
+
+/*----- react-select styling -----*/
+
+/* Select wrapper */
+.shop-header .custom-select .custom-select-prefix__control {
+  border: 1px solid rgba(0,0,0,0.2) !important;
+  font-size: 1.5rem;
+  color: var(--grey) !important;
+  border-radius: 0.4rem;
+  min-height: 4rem;
+}
+
+/* Select Value */
+.shop-header .custom-select .custom-select-prefix__single-value {
+  color: var(--grey) !important;
+}
+
+/* Select wrapper, Focused */
+.shop-header .custom-select-prefix__control--is-focused {
+  border-color: var(--main-color) !important;
+  -webkit-box-shadow: 0 0 0 1px var(--main-color) !important;
+          box-shadow: 0 0 0 1px var(--main-color) !important; 
+}
+
+/* Select option */
+.shop-header .custom-select .custom-select-prefix__option {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* select option, On Hover */
+.shop-header .custom-select .custom-select-prefix__option:hover {
+  color: var(--white);
+  background-color: var(--main-color);
+}
+
+/* select option, Selected */
+.shop-header .custom-select .custom-select-prefix__option--is-selected {
+  color: var(--white);
+  background-color: var(--secondary-color);
+}

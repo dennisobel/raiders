@@ -1,0 +1,156 @@
+/* Portfolio Single container */
+.portfolio-single{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  -ms-grid-row-align: flex-start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2rem;
+}  
+
+/* Portfolio Info container */
+.portfolio-info{ 
+  -webkit-box-flex: 1; 
+  -ms-flex: 1 1 70rem;
+      flex: 1 1 70rem;
+}
+
+/* Portfolio Intro */
+.portfolio-info .intro{
+  position: relative;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Portfolio Image Container */
+.portfolio-info .image{
+  height: 35rem;
+}
+
+/* Portfolio Image */
+.portfolio-info .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Portfolio Details */
+.portfolio-info .details{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 2rem;
+  padding-left: 10rem;
+  background-color: var(--main-color);
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* Portfolio Detail Item */
+.portfolio-info .detail-item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Portfolio Detail Item Heading */
+.portfolio-info .detail-item h3{
+  font-size: 2rem;
+  color: var(--white);
+}
+
+/* Portfolio Detail Item Description */
+.portfolio-info .detail-item p{
+  font-size: 1.6rem;
+  color: var(--white);
+}
+
+/* Portfolio Content */
+.portfolio-info .content{
+  padding: 2rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  border: var(--border);
+  margin: 2rem 0;
+}
+
+/* Portfolio Main Heading */
+.portfolio-info .main-heading{
+  display: inline-block;
+  font-size: 4rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  padding-bottom: 1rem;
+}
+
+/* Portfolio Content Paragraph */
+.portfolio-info .content p{
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+/* Portfolio Gallery */
+.portfolio-info .portfolio-gallery .box-container{
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 0.5rem;
+}
+
+/* Portfolio Gallery Image */
+.portfolio-info .portfolio-gallery img{
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Portfolio Sidebar */
+.portfolio-sidebar{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 25rem;
+      flex: 1 1 25rem;
+}
+
+/* Portfolio Sidebar Heading */
+.portfolio-sidebar h3{
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: var(--secondary-color);
+  color: var(--white); 
+  padding: 1.5rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+  gap: 1rem;
+  border-left: 0.5rem solid var(--main-color);
+  border-bottom: 0.2rem solid var(--white);
+}
+
+/* Portfolio Sidebar Heading, On Hover */
+.portfolio-sidebar h3:hover{
+  cursor: pointer;
+  background-color: var(--main-color);
+}
+
+/* Portfolio Sidebar Heading Icon */
+.portfolio-sidebar h3 i{
+  color: var(--white);
+  font-size: 2rem;
+}

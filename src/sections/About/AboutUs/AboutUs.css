@@ -1,0 +1,8 @@
+/* Adds padding to the element with the class "about-us" */
+.about-us {
+    padding: 2rem 0;
+}
+
+.about-us .btn{
+    display: none;
+} 

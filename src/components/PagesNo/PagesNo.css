@@ -1,0 +1,54 @@
+/* page numbers */
+.pages-no{
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 2rem 0;  
+}
+
+/* page number buttons Container */
+.pages-no .container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}
+
+/* Page number individual button */
+.pages-no .item{
+  background-color: var(--white);
+  box-shadow: var(--box-shadow);
+  height: 5rem;
+  width: 5rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Page number individual button, active and hover effect */
+.pages-no .item.active,
+.pages-no .item:hover{
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--secondary-color);
+}
+
+/* All page numbers container */
+.pages-no .numbers{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+}  

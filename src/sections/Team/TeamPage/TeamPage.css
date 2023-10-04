@@ -1,0 +1,13 @@
+/* Team Section */
+.team .box-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1rem;
+} 
+
+/* Team Management Section */
+.team .management{
+  margin-bottom: 2rem;
+}   

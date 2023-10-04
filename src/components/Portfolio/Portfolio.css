@@ -1,0 +1,27 @@
+/* Portfolio box container */
+.portfolio .box-container{
+    margin: 2rem 0; 
+	display: -ms-grid; 
+	display: grid;
+	-ms-grid-columns: (minmax(33rem, 1fr))[auto-fill];
+	    grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+    grid-gap: 1rem;
+}
+ 
+/* Portfolio Tabs Buttons */
+.portfolio .controls{ 
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    list-style-type: none;
+    gap: 1.5rem;
+    padding-top: 1rem;
+}

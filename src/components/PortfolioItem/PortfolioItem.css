@@ -1,0 +1,108 @@
+/* Portfolio Card */
+.portfolio-item{
+    overflow: hidden;
+    position: relative;
+    height: 35rem;
+}
+
+/* Portfolio Card Image */ 
+.portfolio-item img{
+    width: 100%;
+    height: 100%;  
+    object-fit: cover; 
+}
+
+/* Portfolio Card Text Container */
+.portfolio-item .text{
+    position: absolute;
+    left: 0;
+    bottom: -100%;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(218, 18, 18, 0.8);
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+/* Portfolio Card Text Container, On Portfolio Card Hover */
+.portfolio-item:hover .text{
+    bottom: 0;
+}
+
+/* Portfolio Category */
+.portfolio-item .text p{
+    font-size: 1.6rem;
+    color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center; 
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Portfolio Category, Before Dash design */
+.portfolio-item .text span{ 
+    display: inline-block;
+    height: 0.2rem;
+    width: 2rem;
+    background-color: var(--white);
+    margin: 2rem 0;
+}
+
+/* Portfolio Title */
+.portfolio-item .text h3{
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+/* Portfolio Title, On Hover */
+.portfolio-item .text h3:hover{
+    color: var(--black);
+}
+
+/* Portfolio Button Container */
+.portfolio-item .btn-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+/* Portfolio Link Icon */
+.portfolio-item a .icon{
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
+    border-radius: 50%;
+    scale: 0;
+    font-size: 1.8rem;
+    color: var(--white);
+    background-color: var(--main-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Portfolio Link Icon, On Hover */
+.portfolio-item a .icon:hover{
+    background-color: var(--secondary-color);
+}
+
+/* Portfolio Link Icon, On Portfolio Card Hover */
+.portfolio-item:hover a .icon{
+    scale: 1;
+}

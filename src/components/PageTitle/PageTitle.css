@@ -1,0 +1,81 @@
+/* Page title Background styles */
+.page-title {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+              url("../../assets/PageTitle/PageTitle.jpg"); /* Background image with gradient overlay */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+              url("../../assets/PageTitle/PageTitle.jpg");
+  position: relative;
+  min-height: 40rem;
+  background-repeat: no-repeat;  
+  background-size: cover;
+  background-position: center; 
+  display: -webkit-box;
+  display: -ms-flexbox;  
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Title text */
+.page-title h2 {
+  color: var(--white);
+  font-size: 5rem;
+  font-weight: 600;
+  padding-top: 8rem;
+}
+
+/* Homepage link */
+.page-title .link {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1.5rem 3rem;
+  padding-left: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+  gap: 2rem;
+  background-color: var(--main-color);
+  -webkit-clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+          clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+/* Homepage link icon */
+.page-title .link a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+/* Homepage link icon, Hover effect */
+.page-title .link a:hover {
+  color: var(--black);
+}
+
+/* Angle Double Right icon */
+.page-title .link .icon {
+  font-size: 2.2rem;
+  color: var(--white);
+}
+
+/* Page name text */
+.page-title .link span {
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: var(--white);
+}  

@@ -1,0 +1,66 @@
+/* Faq accordion */
+.faq .accordion {
+    margin-bottom: 1.5rem;
+}  
+   
+/* Faq last accordion */ 
+.faq .accordion:last-child {
+    margin-bottom: 0rem;  
+}    
+  
+/* Faq accordion heading */
+.faq .accordion .accordion-heading {
+    padding: 2rem;
+    display: -webkit-box; 
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center; 
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 1rem;
+    border: var(--border);
+    color: var(--main-color); 
+    cursor: pointer;
+    -webkit-box-shadow: var(--box-shadow); 
+            box-shadow: var(--box-shadow);
+}
+
+/* Faq accordion heading, On Accordion Expanded */
+.faq .accordion.active .accordion-heading {
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+/* Faq accordion heading title */
+.faq .accordion .accordion-heading h3 {
+    font-size: 2rem;
+}
+
+/* Faq accordion heading icon */
+.faq .accordion .accordion-heading .icon {
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+/* Faq accordion heading title, On Accordion Expanded */
+.faq .accordion.active .accordion-heading .icon {
+    color: var(--white);
+}
+
+/* Faq accordion content */
+.faq .accordion-content {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: var(--grey);
+    background-color: rgba(0, 0, 0, 0.05);
+    display: none;
+}
+
+/* Faq accordion content, On Accordion Expanded */
+.faq .accordion.active .accordion-content {
+    display: block;
+}

@@ -1,0 +1,206 @@
+/* Team Innings Section */
+.team-innings{
+  margin-bottom: 2rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+} 
+
+/* Team Innings Title */
+.team-innings .title{
+  background-color: var(--black);
+  color: var(--white);
+  border-bottom: 0.4rem solid var(--main-color);
+  display: -webkit-box;
+  display: -ms-flexbox; 
+  display: flex; 
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* Team Name & Score */
+.team-innings .title h3{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+}
+
+/* Team Overs Played */
+.team-innings .title h3 span{
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding-left: 0.5rem;
+}
+
+/* Team Innings Sub-Heading */
+.team-innings .sub-heading{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+/* Team Innings Sub-Heading Title */
+.team-innings .sub-heading h3{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40rem;
+      flex: 1 1 40rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+/* Team Innings Stats Headers */
+.team-innings .info-heading{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Team Innings Stats Header Item */
+.team-innings .info-heading h6{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--white);
+}
+
+/* Team Innings Content */
+.team-innings .content{
+  padding: 1rem;
+}
+
+/* Inning player Item */
+.team-innings .innings-item .item{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+}
+
+/* Inning Last Player Item */
+.team-innings .innings-item .item:last-child{
+  border-bottom: none;
+}
+
+/* Batter & Bowler Intro */
+.team-innings .intro{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 40rem;
+      flex: 1 1 40rem; 
+}
+
+/* Batter's name */
+.team-innings .item h3{
+  font-size: 1.6rem;
+  color: var(--black);
+}
+
+/* Batter's status */
+.team-innings .item h6{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--black);
+  text-transform: none;
+}
+
+/* Batter & Bowler Details */
+.team-innings .details{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;
+      flex: 1 1 30rem;
+}
+
+/* Batter & Bowler statistics */
+.team-innings .details ul{
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+/* Batter & Bowler Stat */
+.team-innings .details ul li{
+  font-size: 1.4rem;
+  color: var(--grey);
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 5rem;
+          flex: 1 1 5rem;
+}
+
+/* Inning Extras Container */
+.team-innings .extras{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Heading for extras */
+.team-innings .extras h3{
+  font-size: 1.6rem;
+  color: var(--black);
+  padding-right: 2rem;
+}
+
+/* Inning Extras */
+.team-innings .extras p{
+  font-size: 1.4rem;
+  color: var(--grey);
+}
+
+/* Fall Of Wickets */
+.team-innings .wickets-fall .content{
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Fall Of Wickets (Team Score) */
+.team-innings .wickets-fall h4{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--black); 
+}
+
+/* Fall Of Wickets (Player Name & Overs Played) */
+.team-innings .wickets-fall h4 span{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--grey);
+}

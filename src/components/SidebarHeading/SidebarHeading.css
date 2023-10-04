@@ -1,0 +1,16 @@
+/* Sidebar heading container */
+.sidebar-heading{
+    margin-bottom: 1rem;
+}
+
+/* Sidebar heading title */
+.sidebar-heading h2{
+    word-spacing: 1px;  
+    font-size: 2.5rem;  
+    font-weight: 500;  
+    color: var(--white);
+    background-color: var(--main-color);
+    padding: 0.7rem 1rem;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+            clip-path: polygon(0 0, 100% 0%, 85% 100%, 0% 100%);
+}

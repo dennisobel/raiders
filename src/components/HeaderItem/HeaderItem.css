@@ -1,0 +1,114 @@
+/* Header navigation item */
+.header .nav-item {
+  position: relative;
+  display: -webkit-box; 
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center; 
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center; 
+          align-items: center;
+} 
+
+/* Header dropdown menu */
+.header .dropdown-menu {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: var(--white);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  gap: 0.7rem;
+}
+
+/* Header dropdown menu button */
+.header .dropdown-menu .nav-btn {
+  font-size: 1.8rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+/* Header dropdown menu button, On Hover */
+.header .dropdown-menu .nav-btn:hover {
+  color: var(--black);
+}
+
+/* Header dropdown menu icon */
+.header .dropdown-menu .icon {
+  font-size: 2rem;
+  color: var(--white);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Header dropdown content */
+.header .dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: var(--black);
+  background-color: var(--white);
+  width: 20rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: none;
+  -webkit-transform: scale(0); 
+          transform: scale(0);
+  -webkit-transition:  all 0.5s;
+  -moz-transition:  all 0.5s;
+  -o-transition:  all 0.5s;
+  transition:  all 0.5s;
+  z-index: 1000;
+}
+
+/* Header dropdown content links */
+.header .dropdown-content a {
+  display: block;
+  font-size: 1.6rem;
+  color: var(--black);
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  cursor: pointer;
+}
+
+/* Header dropdown content links, On Hover */
+.header .dropdown-content a:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
+  border-left: 0.4rem solid var(--main-color);
+}
+
+/* Hover effect for navigation item */
+.header .nav-item:hover .nav-btn {
+  color: var(--black);
+}
+
+/* Hover style for dropdown menu icon */
+.header .nav-item:hover .icon {
+  color: var(--black); 
+}
+
+/* Hover effect for showing dropdown content */
+.header .nav-item:hover .dropdown-content {
+  display: initial;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}   

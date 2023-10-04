@@ -1,0 +1,37 @@
+/* Blog Grid Container */
+.blog.grid{
+    display: -webkit-box;
+    display: -ms-flexbox;  
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 2rem;
+}    
+  
+/* Blog Container */
+.blog-container{ 
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 75rem;
+        flex: 1 1 75rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; 
+}
+ 
+/* Blog items container in Blog Grid */
+.blog-container.grid .blog-items{
+    display: -ms-grid; 
+    display: grid;
+    -ms-grid-columns: (minmax(33rem, 1fr))[auto-fill];
+    grid-template-columns: repeat(auto-fill, minmax(33rem, 1fr));
+    grid-gap: 1rem;
+} 
+
+/* Message when no blog items are found */
+.no-found{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    text-transform: none;
+}

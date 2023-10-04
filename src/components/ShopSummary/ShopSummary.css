@@ -1,0 +1,32 @@
+/* Summary item */
+.summary-item{
+  display: -webkit-box;
+  display: -ms-flexbox;  
+  display: flex; 
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;  
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 1rem 0;
+}  
+
+/* Summary item boxes */
+.summary-item .box{
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--black);
+  padding: 0.5rem 1rem; 
+}
+
+/* Each Summary Item Name */
+.summary-item .name{
+  font-weight: 600;
+}
+
+/* Each Summary Item Value */
+.summary-item .value{
+  font-weight: 500;
+  color: var(--secondary-color);
+}

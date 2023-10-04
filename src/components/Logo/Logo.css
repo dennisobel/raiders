@@ -1,0 +1,5 @@
+/* Logo image */
+.logo img{
+    height: 10rem;
+    object-fit: cover;
+}   

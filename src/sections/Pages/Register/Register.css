@@ -1,0 +1,24 @@
+/* Register Terms container */
+.register form .terms {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; 
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+}
+ 
+/* Register Terms label */ 
+.register form .terms label {
+  font-size: 1.5rem;
+  color: var(--grey);
+  cursor: pointer;
+}
+
+/* Register Terms label span */
+.register form .terms label span {
+  color: var(--secondary-color);
+}

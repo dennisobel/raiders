@@ -1,0 +1,89 @@
+/* Event Single */
+.event-single{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; 
+  gap: 2rem;
+}
+
+/* Event Info */
+.event-info{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 70rem;
+      flex: 1 1 70rem; 
+}
+
+/* Event Introduction section */
+.event-info .event-intro{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/Event/Event.jpg");
+  background:         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../../assets/Event/Event.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Event Intro */
+.event-info .event-intro .intro{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+/* Team Logo and Name */
+.event-info .event-intro .team-logo{
+  text-align: center;
+}
+
+/* Team Logo */
+.event-info .event-intro .team-logo img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Team Name */
+.event-info .event-intro .team-logo h3{
+  font-size: 2.5rem;
+  color: var(--white);
+}
+
+/* Styling for 'VS' */
+.event-info .event-intro .intro h5{
+  font-size: 6rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+/* Event content */
+.event-info .event-content{
+  text-align: center;
+}
+
+/* Event Date and Time */
+.event-info .time{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Event Venue */
+.event-info .venue{
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--white);
+}

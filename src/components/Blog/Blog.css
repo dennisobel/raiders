@@ -1,0 +1,118 @@
+/* Blog Card */
+.blog-item{
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  background-color: var(--white);
+}
+
+/* Blog Image Container */ 
+.blog-item .image{ 
+  height: 25rem;
+  position: relative; 
+}
+
+/* Blog Image */
+.blog-item .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} 
+
+/* Blog Date */
+.blog-item .date{
+  position: absolute;
+  top: 0;
+  right: 5%;
+  background-color: var(--main-color);
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  width: 7rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+/* Blog Content Container */
+.blog-item .content{
+  padding: 2rem;
+}
+
+/* Blog Category */
+.blog-item .category{
+  display: inline-block;
+  font-size: 1.6rem;
+  color: var(--white);
+  background-color: var(--main-color);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Blog Category, On Hover */
+.blog-item .category:hover{
+  background-color: var(--secondary-color);
+}
+
+/* Blog Heading */
+.blog-item .content .main-heading{
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--black);
+  line-height: 1.4;
+  padding-bottom: 0.5rem;
+}
+
+/* Blog Heading, On Hover */
+.blog-item .content .main-heading:hover{
+  color: var(--main-color);
+}
+
+/* Blog Paragraph */
+.blog-item .content p{
+  font-size: 1.6rem;
+  color: var(--grey);
+  line-height: 1.5;
+}
+
+/* Blog Details */
+.blog-item .details{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Blog Detail Item */
+.blog-item .details h3{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
+/* Blog Detail item Icon */
+.blog-item .details h3 .icon{
+  color: var(--main-color);
+}
+
+/* Blog Detail item Text */
+.blog-item .details h3 span{
+  font-weight: 400;
+  color: var(--grey);
+}

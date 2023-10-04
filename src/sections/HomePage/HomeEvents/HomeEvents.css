@@ -1,0 +1,102 @@
+ /* HomePage Events Background styling */
+.home-events{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../../assets/Background/Upcoming.jpg");
+  background:         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../../../assets/Background/Upcoming.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; 
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+} 
+
+/* Grid container for upcoming items */
+.home-events .box-container{
+  display: -ms-grid; 
+  display: grid;
+  -ms-grid-columns: (minmax(33rem, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+/* Each upcoming item */
+.home-events .upcoming-item{
+  border: 0.2rem solid var(--white);
+  text-align: center;
+}
+
+/* Upcoming item Content */
+.home-events .upcoming-item .content{
+  padding: 2rem 1rem;
+}
+
+/* Event Time */
+.home-events .upcoming-item .time{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Team Content Section */
+.home-events .upcoming-item .team-content{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+/* Team Logo section */
+.home-events .upcoming-item .team-logo{
+  text-align: center;
+}
+
+/* Team Logo */
+.home-events .upcoming-item img{
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+/* Team Name */
+.home-events .upcoming-item h3{
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--white);
+}
+
+/* Styling for "vs" */
+.home-events .upcoming-item h6{
+  font-size: 6rem;
+  font-weight: 600;
+  color: var(--white);
+}
+
+/* Event Venue */
+.home-events .upcoming-item .venue{
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+/* Button Container */
+.home-events .upcoming-item .btn-container{ 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Buttons */
+.home-events .upcoming-item .btn{
+  width: 100%;
+  text-align: center;
+}

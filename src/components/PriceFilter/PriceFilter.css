@@ -1,0 +1,134 @@
+/* Price filter container */
+.price-filter{
+  width: 100%;
+  padding: 1.5rem 0;
+}
+ 
+/* Price input container */ 
+.price-filter .price-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; 
+  gap: 2rem; 
+  margin-bottom: 3rem;
+}
+
+/* Individual price input field */
+.price-input .field{
+  width: 100%;
+  height: 3.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* Heading for price input field */
+.price-input h3{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+/* Value display for price input field */
+.field span{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  border-radius: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid var(--grey);
+}
+
+/* Separator between min and max price inputs */
+.price-input .separator{
+  color: var(--black);
+  width: 2rem;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Slider container */
+.slider{
+  height: 0.5rem;
+  position: relative;
+  background: #ddd;
+  border-radius: 5px;
+  -webkit-transition: none;
+          transition: none; /* Override the transition for the slider */
+}
+
+/* Progress bar indicating selected price range */
+.slider .progress{
+  height: 100%;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 0.5rem;
+  background: var(--main-color);
+  -webkit-transition: none;
+          transition: none; /* Override the transition for the slider */
+}
+
+/* Range input container */
+.range-input {
+  position: relative;
+}
+
+/* Range input sliders */
+.range-input input{
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+}
+
+/* Range input thumb (Webkit) */
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: var(--main-color);
+  pointer-events: auto;
+  -webkit-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Range input thumb (Mozilla) */
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  border: none;
+  border-radius: 50%;
+  background: var(--main-color);
+  pointer-events: auto;
+  -moz-appearance: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}

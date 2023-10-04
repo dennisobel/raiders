@@ -1,0 +1,41 @@
+/* Heading container */
+.heading{ 
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+/* Heading title */
+.heading h2{   
+  font-weight: 500;
+  font-size: 4rem;  
+  color: var(--secondary-color);
+  text-transform: capitalize;
+  position: relative;
+  padding-bottom: 0.5rem;
+} 
+
+/* Heading Before & After styles */
+.heading h2:after, 
+.heading h2:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 45px;
+    height: 4px;
+    content: "";
+    right: 45px; 
+    margin: auto;
+    background-color: #ccc;
+}
+
+/* Heading Before styles */
+.heading h2:before { 
+    background-color: var(--main-color);
+    left: 45px; 
+    width: 90px;
+}
+
+/* Override styles for Heading container, Within a linear background container */
+.linear-bg .heading h2{
+  color: var(--white);
+}

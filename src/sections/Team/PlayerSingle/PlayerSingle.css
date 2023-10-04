@@ -1,0 +1,159 @@
+
+/* Player Information Container */
+.player-single .box-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 4rem;
+}
+
+/* Player Introduction */
+.player-single .intro{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 30rem;  
+      flex: 1 1 30rem;
+} 
+
+/* Player Image Container */
+.player-single .image{  
+  height: 50rem;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+}
+
+/* Player Image */
+.player-single .image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Player Details */
+.player-single .content{
+  padding-top: 2rem;
+}
+
+/* Player Name */
+.player-single .content h3{
+  color: var(--black);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Player Title */
+.player-single .content p{
+  color: var(--grey);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* Social media icons */
+.player-single .content .icon-container{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+/* Social media link */
+.player-single .content .icon-container a{
+  height: 2rem;
+  width: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  font-size: 1.6rem;
+  color: var(--main-color);
+}
+
+/* Social media link, On Hover */
+.player-single .content .icon-container a:hover{
+  color: var(--black);
+}
+
+/* Player Information */
+.player-single .information{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 50rem; 
+      flex: 1 1 50rem;
+}
+
+/* Player Info Item Container */
+.player-single .info-item{
+  padding-bottom: 1rem;
+}
+
+/* Player Information Heading */
+.player-single .info-item h2{
+  font-size: 3rem;
+  color: var(--black);
+  font-weight: 500;
+}
+
+/* Player Information List */
+.player-single .info-item ul{
+  list-style-type: none;
+}
+
+/* Player Information Item */
+.player-single .info-item ul li{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 0.5rem;
+}
+
+/* Player Information Item Heading */
+.player-single .info-item ul li h5{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 15rem;
+      flex: 1 1 15rem; 
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+/* Player Information Item Value */
+.player-single .info-item ul li span{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 45rem;
+      flex: 1 1 45rem;
+  font-size: 1.6rem;
+  color: var(--grey);
+}
+
+/* Player About */
+.player-single .team-about{
+  padding-top: 2rem;
+}
+
+/* Player Biography Title */
+.player-single h4{
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--black);
+}
+
+/* Player Biography */
+.player-single .team-about p{
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: var(--grey);
+  padding-top: 1rem;
+} 

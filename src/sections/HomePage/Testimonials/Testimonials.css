@@ -1,0 +1,90 @@
+/* Testimonials section */
+.testimonials{
+    overflow: hidden;
+}  
+
+/* Testimonial slider container */
+.testimonial-slider{ 
+    overflow: hidden; 
+    position: relative; 
+}  
+ 
+/* Testimonial slider swiper container */
+.testimonial-slider .swiper{
+    overflow: hidden;  
+    padding-bottom: 6rem; 
+    padding-top: 8rem;
+}
+
+/* Testimonial item */
+.testi-item{
+    padding-top: 8rem;
+    border: var(--border);
+    position: relative;
+    text-align: center;
+    background-color: var(--white);
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+}
+
+/* Testimonial image */
+.testi-item img{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 12rem;
+    width: 12rem;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+}
+
+/* Testimonial quote icon */
+.testi-item .quote-left{
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+/* Testimonial item paragraph */
+.testi-item p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+    padding: 2.5rem;
+    color: var(--grey);
+}
+
+.testi-item .text{
+    background-color: rgba(17, 70, 143, 0.2);
+    padding: 2rem 0;
+}
+
+/* Testimonial item name */
+.testi-item h4{
+    font-size: 2rem;
+    color: var(--secondary-color);
+}
+
+/* Testimonial item title */
+.testi-item h6{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--main-color);
+}
+
+/* Testimonials section Heading (On the homepage) */
+.homepage .testimonials .heading span,
+.homepage .testimonials .heading h2{
+    color: var(--white);
+}
+
+/* Testimonials section (On the homepage) */
+.homepage .testimonials{
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../../../assets/Background/Testimonials.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../../../assets/Background/Testimonials.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 

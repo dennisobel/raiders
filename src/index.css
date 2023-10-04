@@ -1,0 +1,582 @@
+/*--------------------- 0- Global CSS (Start) ---------------------*/
+
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+/* Global CSS variables */
+:root{ 
+    --main-color: #DA1212; 
+    --secondary-color: #0D4C92; 
+    --black: #000;
+    --white: #fff;
+    --grey: #666; 
+    --border-radius: 1rem;
+    --border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+/* Global styles for all elements */
+*{
+    font-family: 'Poppins', sans-serif;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+/* Text selection */
+*::-moz-selection{
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+*::selection{
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+/* Body */
+body{
+    background-color: var(--white);
+    overflow-x: hidden;
+}
+
+/* Html */
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 8rem;
+}
+
+/* Sections */
+section{
+    padding: 3rem 5%;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar{
+    width: 0.8rem;
+}
+
+::-webkit-scrollbar-track{
+    background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--main-color);
+}
+
+
+/*----- 1- Form CSS -----*/
+
+/* Autofill input fields */
+.form input:-webkit-autofill,
+.form input:-webkit-autofill:hover,
+.form input:-webkit-autofill:focus,
+.form input:-webkit-autofill:active {
+    -webkit-text-fill-color: var(--black);
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+            transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Form heading */
+.form h3{ 
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    text-align: left;
+}
+  
+/* Form input box container */
+.form .input-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+  
+/* Form Input box inside input box container */
+.form .input-box .box{
+    width: 49.1%;
+}
+  
+/* Input box */
+.form .box{
+    width: 100%;
+    padding: 1.5rem;
+    border: 0.1rem solid rgba(0, 0, 0, 0.2);
+    font-size: 1.6rem;
+    color: var(--grey);
+    text-transform: none;
+    margin: 0.7rem 0;
+}
+
+/* Input box placeholder */
+.form .box::-webkit-input-placeholder{
+    text-transform: capitalize;
+}
+.form .box::-moz-placeholder{
+    text-transform: capitalize;
+}
+.form .box:-ms-input-placeholder{
+    text-transform: capitalize;
+}
+.form .box::placeholder{
+    text-transform: capitalize;
+}
+
+/* Focused Input box */
+.form .box:focus{
+    border-color: var(--main-color);
+}
+
+/* Form Textarea */
+.form textarea{
+    resize: none;
+    height: 20rem;
+}
+
+/* Form button */
+.form button{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem; 
+}
+
+/*----- 2- Account-Form CSS -----*/
+/* Autofill input fields */
+.account-form input:-webkit-autofill,
+.account-form input:-webkit-autofill:hover,
+.account-form input:-webkit-autofill:focus,
+.account-form input:-webkit-autofill:active {
+    -webkit-text-fill-color: var(--black);
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+            transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Account form */
+.account-form{
+    max-width: 45rem;
+    padding: 5rem;
+    background: var(--white);
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+    margin: 1rem auto;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    border-left: 0.5rem solid var(--main-color);
+}
+  
+/* Account form heading */
+.account-form h3{  
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    font-weight: 600;
+    color: var(--main-color);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Input box */
+.account-form .box{
+    width: 100%;
+    padding: 1.5rem;
+    background-color: rgba(17, 70, 143, 0.1);
+    font-size: 1.6rem;
+    color: var(--grey);
+    text-transform: none;
+    margin: 0.7rem 0;
+    border-left: 0.5rem solid var(--main-color);
+}
+
+/* Input box placeholder */
+.account-form .box::-webkit-input-placeholder{
+    text-transform: capitalize;
+}
+.account-form .box::-moz-placeholder{
+    text-transform: capitalize;
+}
+.account-form .box:-ms-input-placeholder{
+    text-transform: capitalize;
+}
+.account-form .box::placeholder{
+    text-transform: capitalize;
+}
+
+/* Focused Input box */
+.account-form .box:focus{
+    border-color: var(--secondary-color);
+}
+
+/* Form button */
+.account-form button{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin-top: 1rem; 
+}
+
+/* Account form text */
+.account-form p{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    color: var(--grey);
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/* Account form link text */
+.account-form .link{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+/* Account form link text, Hover Effect */
+.account-form .link:hover{
+    text-decoration: underline;
+}
+
+
+/*----- 3- Sidebar CSS -----*/
+/*
+1- Search
+2- Category
+3- Recent Items
+4- Tags
+*/
+
+/* sidebar container */
+.sidebar{
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 22rem; 
+        flex: 1 1 22rem;  
+}
+
+/* Sidebar item */
+.sidebar .sidebar-item{
+    margin-bottom: 2.5rem;
+}
+
+/* Sidebar item box container */
+.sidebar .box-container{
+    padding: 1rem 0;
+}
+
+/*-- 1- Search --*/
+/* Search input box */
+.sidebar .search .input-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+}
+
+/* Search input */
+.sidebar .search .input-box input{
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+}
+
+/* Search Autofill input fields */
+.sidebar input:-webkit-autofill,
+.sidebar input:-webkit-autofill:hover,
+.sidebar input:-webkit-autofill:focus,
+.sidebar input:-webkit-autofill:active {
+    -webkit-text-fill-color: var(--black);
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+            transition: background-color 5000s ease-in-out 0s;
+}
+
+/* Focused search input */
+.sidebar .search .input-box input:focus{
+    border-color: var(--main-color);
+}
+
+/* Search button */
+.sidebar .search .input-box button{
+    color: var(--white);
+    background-color: var(--secondary-color);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* Search button, Hover Effect */
+.sidebar .search .input-box button:hover{
+    background-color: var(--main-color);
+}
+
+/*-- 2- Category --*/
+
+/* Category item */
+.sidebar .category .item{
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 0.15rem solid rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* Category item text */
+.sidebar .category .item span{
+    font-size: 1.7rem;
+    color: var(--secondary-color);
+    font-weight: 400;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Category item icon */
+.sidebar .category .item span .icon{
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+/* Category item Quantity */
+.sidebar .category .item p{
+    font-size: 1.5rem;
+    color: var(--grey);
+}
+
+/* Category item text, Hover Effect */
+.sidebar .category .item:hover span,
+.sidebar .category .item.active span{
+    color: var(--main-color);
+}
+
+/* Category item Quantity, Hover Effect */
+.sidebar .category .item:hover p,
+.sidebar .category .item.active p{
+    color: var(--main-color);
+}
+
+
+/*-- 3- Tags --*/
+
+/* Sidebar Tag Container */
+.sidebar .tags .box-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/*  Tag item */
+.sidebar .tag-item{
+    color: var(--grey);
+    background-color: var(--white);
+    border: 0.15rem solid rgba(0, 0, 0, 0.1);
+    font-size: 1.6rem;
+    padding: 1rem 1.2rem;
+}
+
+/* tag item, Hover Effect */
+.sidebar .tag-item:hover,
+.sidebar .tag-item.active{
+    background-color: var(--main-color);
+    color: var(--white);
+    cursor: pointer;
+}
+
+
+/*----- 4- Swiper Pagination CSS -----*/
+
+/* Swiper pagination bullet */
+.swiper-pagination-bullet{ 
+    height: 1.5rem;
+    width: 1.5rem;
+    background: #999;
+    border: var(--border);
+    opacity: 0.7;
+    border-radius: 0.2rem;
+    -webkit-box-shadow: var(--box-shadow);
+            box-shadow: var(--box-shadow);
+}
+
+/* Active swiper pagination bullet */
+.swiper-pagination-bullet-active{
+    width: 4rem;
+    background: var(--main-color) !important;
+    opacity: 0.9 !important;
+}
+
+
+/*--------------------- Responsive (Start) ---------------------*/
+
+/* Responsive screens up to 991px */
+@media (max-width: 991px){
+
+    /* Adjust the font size for HTML elements */
+    html{
+        font-size: 55%;
+    }
+
+    /* Enable reverse wrapping for blog grid and list items */
+    .blog.grid, .blog.list{
+        -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+    }
+}
+
+
+/* Responsive screens up to 768px */
+@media (max-width: 768px){
+
+    /* Adjust padding for header-1 */
+    .header .header-1{
+        padding: 2rem;
+    }
+
+    /* Adjust padding for header-2 */
+    .header .header-2{
+        padding: 0rem 2rem;
+    }
+
+    /* Adjust padding for the footer */
+    .footer{
+        padding: 0rem 2rem;
+    }
+
+    /* Adjust padding for sections */
+    section{
+        padding: 3rem 2rem;
+    }
+
+    /* Adjust padding for the content within home items */
+    .home-item .content{ 
+        padding: 2rem 10%;
+    }
+
+    /* Product Review */
+    .product-info .product-review {
+        width: 100%;
+    }
+
+    /* Enable reverse wrapping for shop section */
+    .shop{
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+    }
+}
+
+
+/* Responsive screens up to 450px */
+@media (max-width: 450px){
+
+    /* Reduce the font size of the HTML element */
+    html{
+        font-size: 50%;
+    }
+  
+    /* Adjust padding for header 1 */
+    .header .header-1{
+        padding: 1rem;
+    }
+
+    /* Adjust padding for header 2 */
+    .header .header-2{
+        padding: 0rem 1rem;
+    }
+
+    /* Adjust padding for sections */
+    section{
+        padding: 3rem 1rem;
+    }
+  
+    /* Adjust padding for the footer */
+    .footer{
+        padding: 0rem 1rem;
+    }
+
+    /* Adjust padding for the content within home items */
+    .home-item .content{ 
+        padding: 2rem 14%;
+    }
+
+    /* Adjust width for input boxes within forms */
+    .form .input-box .box{
+        width: 100%;
+    }
+
+    /* Adjust flex-wrap for product items in list view */
+    .shop .product-container.list .product-item {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    /* Adjust image height and width for product items in list view */
+    .shop .product-container.list .product-item .image{
+        min-height: 15rem; 
+        width: 100%;
+    }
+
+    /* Adjust image height, width, and object-fit for product item images in list view */
+    .shop .product-container.list .product-item .image img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    /* Adjust gap for product items in list view */
+    .shop .product-container.list .product-item{
+        gap: 1rem;
+    }  
+
+    /* Adjust width for cart summaries */
+    .cart .cart-total{
+        width: 100%;
+    }
+
+    /* Contact form Input Box Container */
+    .contact-form .input-box{
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    /* Contact form Input field Inside Input Box */
+    .contact-form .input-box .box{
+        width: 100%;
+    }
+
+}
+
+/*--------------------- Responsive (End) ---------------------*/

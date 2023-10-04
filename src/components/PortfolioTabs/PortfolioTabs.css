@@ -1,0 +1,14 @@
+/* Portfolio Tabs Button */
+.portfolio .controls .button{
+    padding: 0.2rem;
+    font-size: 2rem;
+    color: var(--grey);
+    font-weight: 600;
+} 
+   
+/* Portfolio Tabs Button, On Hover & Active */
+.portfolio .controls .button:hover,
+.portfolio .controls .button.active{ 
+    cursor: pointer;
+    color: var(--main-color);
+}

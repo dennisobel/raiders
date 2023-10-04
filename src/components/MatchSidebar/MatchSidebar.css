@@ -1,0 +1,41 @@
+/* Match Sidebar Container */
+.match-sidebar{
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 20rem; 
+      flex: 1 1 20rem;  
+}
+ 
+/* Match Sidebar Link */
+.match-sidebar a{
+  display: -webkit-box;
+  display: -ms-flexbox; 
+  display: flex;
+  -webkit-box-align: center; 
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1.5rem 1rem;
+  border-bottom: 0.2rem solid var(--white);
+  border-left: 0.5rem solid var(--main-color);
+  background-color: var(--secondary-color);
+}
+
+/* Match Sidebar Link, On Hover */
+.match-sidebar a:hover{
+  background-color: var(--main-color);
+}
+
+/* Match Sidebar Link Icon */
+.match-sidebar a .icon{
+  font-size: 2rem;
+  color: var(--white);
+}
+
+/* Match Sidebar Link Text */
+.match-sidebar a h3{
+  color: var(--white);
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 0.8;
+  text-transform: none;
+}

@@ -1,0 +1,62 @@
+/* Player section */
+.player{
+    overflow: hidden;
+}  
+
+/* Player slider container */
+.player-slider{ 
+    overflow: hidden;
+    position: relative; 
+}  
+
+/* Player slider swiper container */
+.player-slider .swiper{ 
+    overflow: hidden;  
+    padding-bottom: 8rem; 
+}
+  
+/* Next and Previous Buttons */
+.player-slider .swiper-button-next,
+.player-slider .swiper-button-prev{
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-size: 1rem; 
+    height: 5rem;
+    width: 5rem;
+    padding: 2rem;
+    top: 90%;
+}
+
+/* Next and Previous Buttons, On Hover */
+.player-slider .swiper-button-next:hover,
+.player-slider .swiper-button-prev:hover {
+    background-color: var(--main-color);
+}
+
+/* Positioning the Next button */
+.player-slider .swiper-button-next{
+    right: 0;
+}
+
+/* Positioning the Previous button */
+.player-slider .swiper-button-prev{
+    left: auto;
+    right: 6rem;
+}
+ 
+/* Next and Previous button icons */
+.player-slider .swiper-button-next::after,
+.player-slider .swiper-button-prev::after {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--white);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center; 
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+/* Background gradient and image */
+.trophies{
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  url("../../../assets/Background/Awards.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+  url("../../../assets/Background/Awards.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Trophy Slider */
+.trophy-slider{  
+  padding-top: 2rem;
+}
+
+/* Trophy Item */
+.trophy-item{
+  text-align: center;
+}
+
+/* Trophy Image */
+.trophy-item img{ 
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+}
+
+/* Trophy Title */
+.trophy-item h4{
+  color: var(--white);
+  font-size: 2.5rem;
+}

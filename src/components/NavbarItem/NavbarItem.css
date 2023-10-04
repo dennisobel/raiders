@@ -1,0 +1,80 @@
+/* Main navigation link container */
+.mobile-navbar .main-nav-link {
+    position: relative;
+}
+  
+/* Main navigation button */
+.mobile-navbar .main-nav-link .nav-btn {
+    border-bottom: 0.2rem solid rgba(0, 0, 0, 0.2);
+    background-color: var(--white);
+    color: var(--main-color);
+    font-size: 2rem;
+    font-weight: bold; 
+    cursor: pointer; 
+    width: 100%;
+    padding: 1.5rem 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify; 
+    justify-content: space-between; 
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+/* Main navigation button, On Main Link Hover & Active */
+.mobile-navbar .main-nav-link:hover .nav-btn,
+.mobile-navbar .main-nav-link.active .nav-btn{
+    background-color: var(--main-color);
+    color: var(--white);
+    border-color: var(--main-color);
+}
+
+/* Main navigation link icon */
+.mobile-navbar .main-nav-link .icon {
+    color: var(--main-color);
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    cursor: pointer;
+    -webkit-transition: none;
+            transition: none;
+}
+
+/* Main navigation link icon, On Main Link Hover & Active */
+.mobile-navbar .main-nav-link.active .icon,
+.mobile-navbar .main-nav-link:hover .icon {
+    color: var(--white);
+}
+
+/* Sub-navigation link container */
+.mobile-navbar .sub-nav-link {
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    background: var(--secondary-color);
+    -webkit-transition: all 0s;
+    -moz-transition: all 0s;
+    -o-transition: all 0s;
+    transition: all 0s;
+}
+
+/* Sub-navigation links */
+.mobile-navbar .sub-nav-link a {
+    color: var(--white);
+    display: block;
+    padding: 1rem 0rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    border-bottom: 0.1rem solid var(--white);
+}
+
+/* Sub-navigation links, On Hover */
+.mobile-navbar .sub-nav-link a:hover {
+    color: var(--black);
+    border-color: var(--black);
+}
