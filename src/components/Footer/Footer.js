@@ -18,7 +18,7 @@ const Footer = () => {
         {/* About Section */}
         <div className='footer-item'> 
           <Link to='/' className='logo'><h2>About Us</h2></Link> 
-          <p>The Falcon is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve cricketing skill of young talented cricketers.</p>
+          <p>Raiders is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve soccer skills of young talented soccer players.</p>
           <div className='social'>
             <a href="/#"><FaFacebookF className='icon' /></a>
             <a href="/#"><FaTwitter className='icon' /></a>
@@ -62,9 +62,9 @@ const Footer = () => {
 
       </div>
  
-      <div className='content'>
+      {/* <div className='content'>
         <p>designed by <span>AS_Designs</span> | all rights reserved</p>
-      </div>
+      </div> */}
       
     </footer>
   )

@@ -17,7 +17,7 @@ const contacts = [
         id: 3,
         icon: <FaMapMarkerAlt />,
         title: 'address',
-        content: ['karachi, pakistan'],
+        content: ['awasi, kenya'],
     },
  
 ];

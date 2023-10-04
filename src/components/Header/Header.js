@@ -104,8 +104,8 @@ const Header = (props) => {
 
         {/* Header Icons Container */}
         <div className='icon-container'>
-          <Link to='/Login'><FaRegUser className='icon' /></Link> {/* Login Link */}
-          <Link to='/Cart' className='cart-icon'><FaCartArrowDown className='icon' /><span className='badge'>{cart.length}</span></Link> {/* Cart Link */}
+          {/* <Link to='/Login'><FaRegUser className='icon' /></Link> */}
+          {/* <Link to='/Cart' className='cart-icon'><FaCartArrowDown className='icon' /><span className='badge'>{cart.length}</span></Link> */}
           <div className='icon menu-btn' onClick={handleClick}><FaBars /></div> {/* Menu Button */}
         </div>
         
