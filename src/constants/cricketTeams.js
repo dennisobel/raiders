@@ -3,8 +3,8 @@ import Images from "./images";
 const cricketTeams = [
   {
     id: 1,
-    name: 'raiders club',
-    logo: Images.raiders,
+    name: 'Rovers club',
+    logo: Images.Rovers,
     players: [
       {
         id: 1,

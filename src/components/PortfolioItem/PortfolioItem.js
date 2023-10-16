@@ -43,15 +43,15 @@ const PortfolioItem = (props) => {
           {/* Trigger popup function */}
           <a onClick={() => {popup(id)}}><FaExpandAlt className='icon' /></a>  
           
-          {/* Link to the individual Portfolio Page */}
-          <Link
+          
+          {/* <Link
             to={{
               pathname: '/Portfolio/' + title,
             }}
             state={portfolio}
             className='main-heading' >
-            <FaLink className='icon' /> {/* Link Icon */}
-          </Link>
+            <FaLink className='icon' /> 
+          </Link> */}
 
         </div>
 

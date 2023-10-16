@@ -27,10 +27,10 @@ const AboutUs = () => {
         </section>
 
         {/* Tropies section */}
-        <Trophies />
+        {/* <Trophies /> */}
 
         {/* Testimonials section */}
-        <Testimonials />
+        {/* <Testimonials /> */}
 
         {/* Sponsors Section */}
         <Sponsors />

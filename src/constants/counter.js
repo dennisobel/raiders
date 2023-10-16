@@ -6,25 +6,19 @@ const counter = [
         id: 1, 
         icon: <FaBaseballBall />,
         title: 'matches',
-        count: '100',
+        count: '20',
     },
     {
         id: 2,
         icon: <FaUserCog />,
         title: 'Staff',
-        count: '1000',
+        count: '2',
     },
     {
         id: 3,
-        icon: <FaTrophy />,
-        title: 'Awards',
-        count: '20',
-    },
-    {
-        id: 4,
         icon: <FaUserFriends />,
         title: 'Members',
-        count: '50',
+        count: '100',
     },
  
 ];

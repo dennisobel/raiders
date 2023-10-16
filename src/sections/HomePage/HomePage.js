@@ -13,15 +13,15 @@ const HomePage = (props) => {
     <div className='homepage'>
       <Home /> {/* Home Section */}
       <About /> {/* About Section */}
-      <HomeEvents /> {/* Upcoming Events */}
-      <PlayerSlider /> {/* Player Slider Section */}
-      <ResultAndPoint /> {/* Latest Result & Point Table Section */}
-      <PortfolioSection /> {/* Portfolio Section */}
-      <Counter /> {/* Counter Container */}
+      {/* <HomeEvents />  */}
+      {/* <PlayerSlider />  */}
+      {/* <ResultAndPoint />  */}
+      <PortfolioSection /> 
+      <Counter /> 
       {/* <HomeShop addToCart={addToCart} /> */}
-      <Trophies /> {/* Trophies Section */}
+      {/* <Trophies /> */}
       <Blogs /> {/* Blogs Section */}
-      <Testimonials /> {/* Testimonials Section */}
+      {/* <Testimonials />  */}
       <Sponsors /> {/* Sponsors Section */}
     </div>
   )

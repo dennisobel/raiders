@@ -43,7 +43,7 @@ import testimonial4 from '../assets/Testimonials/Pic-4.jpg';
 /*Cricket Teams*/
 import eagleClub from '../assets/Cricket-Teams/Eagle.jpg';
 import unitedFalcon from '../assets/Cricket-Teams/Falcon.jpg';
-import raiders from '../assets/Cricket-Teams/Raiders.jpg';
+import Rovers from '../assets/Cricket-Teams/Rovers.jpg';
 import hawkClub from '../assets/Cricket-Teams/Hawk.jpg';
 import lionsClub from '../assets/Cricket-Teams/Lions.jpg';
 import tigersClub from '../assets/Cricket-Teams/Tigers.jpg';
@@ -356,7 +356,7 @@ const Images = {
     /*Cricket Teams*/
     eagleClub,
     unitedFalcon,
-    raiders,
+    Rovers,
     hawkClub,
     lionsClub,
     tigersClub,

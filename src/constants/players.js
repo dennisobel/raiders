@@ -23,7 +23,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -58,7 +58,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -93,7 +93,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -128,7 +128,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -163,7 +163,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -198,7 +198,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -233,7 +233,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -268,7 +268,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -303,7 +303,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -338,7 +338,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -373,7 +373,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -408,7 +408,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -443,7 +443,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -478,7 +478,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -513,7 +513,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',
@@ -548,7 +548,7 @@ const players = [
         },
         careerInfo: {
             clubDebut: '2022',
-            curClub: 'Raiders CC',
+            curClub: 'Rovers CC',
             prevClub: 'Wolf CC (2015 - 2018)',
             matches: '25',
             runScored: '1378',

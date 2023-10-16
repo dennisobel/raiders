@@ -18,7 +18,7 @@ const Footer = () => {
         {/* About Section */}
         <div className='footer-item'> 
           <Link to='/' className='logo'><h2>About Us</h2></Link> 
-          <p>Raiders is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve soccer skills of young talented soccer players.</p>
+          <p>Rovers is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve soccer skills of young talented soccer players.</p>
           <div className='social'>
             <a href="/#"><FaFacebookF className='icon' /></a>
             <a href="/#"><FaTwitter className='icon' /></a>
@@ -36,12 +36,12 @@ const Footer = () => {
               <p><FaRegCircle className='icon' /><Link to='/about-us'>about</Link></p>
               <p><FaRegCircle className='icon' /><Link to='/Faqs'>FAQs</Link></p> 
               <p><FaRegCircle className='icon' /><Link to='/Team'>Team</Link></p>
-              <p><FaRegCircle className='icon' /><Link to='/Fixtures'>Fixtures</Link></p>
+              {/* <p><FaRegCircle className='icon' /><Link to='/Fixtures'>Fixtures</Link></p> */}
             </div>
             <div className='links-item'> 
               <p><FaRegCircle className='icon' /><Link to='/Portfolio'>Portfolio</Link></p>
               <p><FaRegCircle className='icon' /><Link to='/Blog-list'>blogs</Link></p>
-              <p><FaRegCircle className='icon' /><Link to='/Shop-list'>shop</Link></p>
+              {/* <p><FaRegCircle className='icon' /><Link to='/Shop-list'>shop</Link></p> */}
               <p><FaRegCircle className='icon' /><Link to='/Contact-us'>contact</Link></p>
             </div>
           </div>

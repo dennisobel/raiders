@@ -1,6 +1,6 @@
 const cricketPointTable = [
   { 
-    name: 'raiders club',
+    name: 'Rovers club',
     stats: [5, 4, 1, '+0.328', 8],
   },
   {

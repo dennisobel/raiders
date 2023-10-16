@@ -5,19 +5,19 @@ const contacts = [
         id: 1, 
         icon: <FaPhone />,
         title: 'contact',
-        content: [ '+111-222-333', '+123-456-789,'],
+        content: [ '+254715179534'],
     },
     {
         id: 2,
         icon: <FaEnvelope />,
         title: 'email',
-        content: [ 'abc@gmail.com', 'xyz@gmail.com'],
+        content: [ ' awasirovers@gmail.com'],
     },
     {
         id: 3,
         icon: <FaMapMarkerAlt />,
         title: 'address',
-        content: ['awasi, kenya'],
+        content: ['Po Box 9-40122','awasi, kenya'],
     },
  
 ];

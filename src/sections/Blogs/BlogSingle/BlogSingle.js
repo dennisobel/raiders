@@ -91,12 +91,12 @@ const BlogSingle = () => {
 
               <div className='blog-points'>
 
-                <h4>{blog.subSection.subHeading}</h4> {/* Display the subheading */}
+                {/* <h4>{blog.subSection.subHeading}</h4> 
                 <ul>
                   {(blog.subSection.points).map((point, index) => {
-                    return <li key={index}><FaCircleNotch className='icon' />{point}</li> /* Display each point in a list */
+                    return <li key={index}><FaCircleNotch className='icon' />{point}</li> 
                   })}
-                </ul>
+                </ul> */}
 
                 {/* Blog image gallery */}
                 <Lightbox images={blog.gallery} className={'blog'} /> {/* Display the image gallery using the Lightbox component */}
@@ -129,20 +129,20 @@ const BlogSingle = () => {
           </div>
 
           {/* Comments section */}
-          <Comments comments={blogComments} />
+          {/* <Comments comments={blogComments} /> */}
 
           {/* Leave a comment */}
-          <div className='leave-reply'>
+          {/* <div className='leave-reply'>
             <form className='form' onSubmit={handleSubmit}>
-              <h3>leave a comment</h3> {/* Heading for the comment form */}
+              <h3>leave a comment</h3> 
               <div className='input-box'>
-                <input type="text" name="name" className='box' id="name" placeholder="name" required /> {/* Input field for name */}
-                <input type="email" name="email" className='box' id="email" placeholder="email" required /> {/* Input field for email */}
+                <input type="text" name="name" className='box' id="name" placeholder="name" required /> 
+                <input type="email" name="email" className='box' id="email" placeholder="email" required /> 
               </div>
-              <textarea cols="30" rows="10" name="comment" className='box' id="comment" placeholder="comment"></textarea> {/* Textarea for the comment */}
-              <button type="submit" name="submit" id="submit" className='btn'>submit</button> {/* Submit button */}
+              <textarea cols="30" rows="10" name="comment" className='box' id="comment" placeholder="comment"></textarea> 
+              <button type="submit" name="submit" id="submit" className='btn'>submit</button> 
             </form>
-          </div>
+          </div> */}
 
         </div>
 
