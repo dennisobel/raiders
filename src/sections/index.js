@@ -1,7 +1,7 @@
 /*Home*/
 export { default as HomePage } from './HomePage/HomePage';
 export { default as Home } from './HomePage/Home/Home'; 
-export { default as About } from './HomePage/Academy/Academy'; 
+export { default as About } from './HomePage/About/About'; 
 export { default as HomeEvents } from './HomePage/HomeEvents/HomeEvents';  
 export { default as PlayerSlider } from './HomePage/PlayerSlider/PlayerSlider'; 
 export { default as ResultAndPoint } from './HomePage/ResultAndPoint/ResultAndPoint';
