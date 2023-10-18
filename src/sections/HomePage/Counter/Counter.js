@@ -16,10 +16,11 @@ const Counter = () => {
       {counter.map((count) => {
         return (
           <div className='box' key={count.id}>
-            <div className='icon'>{count.icon}</div> {/* Counter icon */}
+            <div className='icon'>{count.icon}</div>
+            <br/>
             <div className='text'>
-              <CountUp className='count' end={count.count} duration={3} suffix={'+'} /> {/* Animate the count */}
-              <h3>{count.title}</h3> {/* Counter title */}
+              {/* <CountUp className='count' end={count.count} duration={3} suffix={'+'} /> */}
+              <h3>{count.title}</h3> 
             </div>
           </div>
         );

@@ -20,11 +20,11 @@ const PageTitle = (props) => {
       </div> 
 
       {/* Link and page Container */}
-      <div className='link'>
-        <Link to='/'><FaHome className='home-icon' /></Link> {/* Link to the home page */}
-        <FaAngleDoubleRight className='icon' /> {/* Icon indicating a link */}
-        <span className='page'>{page}</span> {/* Page Title */}
-      </div>
+      {/* <div className='link'>
+        <Link to='/'><FaHome className='home-icon' /></Link> 
+        <FaAngleDoubleRight className='icon' /> 
+        <span className='page'>{page}</span>
+      </div> */}
 
     </div>
   )
