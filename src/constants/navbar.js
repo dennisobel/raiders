@@ -16,7 +16,7 @@ const navbar = [
         id: 2,
         mainLink : {link: '#', title: 'about'},
         subLink: [
-            {id: 1, link: '/About-us', title: 'about us'},
+            {id: 1, link: '/About-us', title: 'The Academy'},
             // {id: 2, link: '/Testimonials', title: 'testimonials'}, 
             {id: 3, link: '/Faqs', title: 'faqs'},
         ],
