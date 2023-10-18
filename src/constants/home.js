@@ -4,7 +4,7 @@ const home = [
   {
     id: 1,
     image: images.home1,
-    title: "One for all, all for one",
+    title: "One for all",
     content: `
         Rovers inculcates teamwork within its ranks and fosters collective responsibility in all facets of
 life not only football, to build accountable, well-rounded academy attendees. In so doing, we
