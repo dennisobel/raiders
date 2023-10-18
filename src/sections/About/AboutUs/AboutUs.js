@@ -30,7 +30,7 @@ const AboutUs = () => {
         {/* <Trophies /> */}
 
         {/* Testimonials section */}
-        {/* <Testimonials /> */}
+        <Testimonials />
 
         {/* Sponsors Section */}
         <Sponsors />

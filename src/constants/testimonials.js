@@ -1,34 +1,21 @@
 import { images } from ".";
 
-const testimonials = [ 
-    {  
-        id: 1,
-        image: images.testimonial1,
-        name: 'Bruce Taylor',
-        title: 'Manager',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
-    }, 
-    { 
-        id: 2,
-        image: images.testimonial2,
-        name: 'Liz Allan', 
-        title: 'Founder',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
-    },
-    { 
-        id: 3,
-        image: images.testimonial3,
-        name: 'John Parker', 
-        title: 'Promoter',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
-    },    
-    { 
-        id: 4,
-        image: images.testimonial4,
-        name: 'Ethna Rouse', 
-        title: 'Talent Coach',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel unde iure magni laboriosam. Laborum exercitationem cupiditate velit dolor dolorum? Voluptatem excepturi eaque eum voluptas voluptates, ex eligendi deserunt pariatur a?',
-    },
+const testimonials = [
+  {
+    id: 1,
+    image: images.testimonial1,
+    name: "Dennis Osingwa",
+    title: "Operations Manager",
+    content: `
+        It has been a remarkable journey from the humble beginnings of coaching a handful of children
+in the rugged terrain of a primary school to today the massive monolith of an institution that we
+continue to develop. Ours is a story of resilience, hope, altruism, and unity of purpose. We are
+where we are today because of the benefactors who believed in the grand dream of Awasi Rovers
+and we are eternally grateful. I couldn’t be more excited than this and more optimistic for the
+future. We look forward to many years of producing talent, wholesome individuals, and
+responsible young citizens.
+        `,
+  },
 ];
 
 export default testimonials;

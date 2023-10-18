@@ -35,10 +35,11 @@ const Portfolio = () => {
     if (category === 'all') { 
       setFilteredImages(portfolio);
     } else {
-      const filtered = portfolio.filter((image) =>
-        image.category.toLowerCase() === category.toLowerCase()
-      );
-      setFilteredImages(filtered);
+      // const filtered = portfolio.filter((image) =>
+      //   image.category.toLowerCase() === category.toLowerCase()
+      // );
+      // setFilteredImages(filtered);
+      setFilteredImages(portfolio);
     }
   }, [category]);
 
@@ -49,7 +50,7 @@ const Portfolio = () => {
     <div className='portfolio'>
 
       {/* Render portfolio tabs buttons */} 
-      <ul className='controls'>
+      {/* <ul className='controls'>
         {categories.map((item) => { 
           return(
             <PortfolioTabs
@@ -62,7 +63,7 @@ const Portfolio = () => {
           ) 
         })
         }
-      </ul>  
+      </ul>   */}
 
       <div className='box-container'>
         

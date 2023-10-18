@@ -40,9 +40,9 @@ const Testimonials = () => {
             768: {
               slidesPerView: 1,
             }, 
-            991: {
-              slidesPerView: 2,
-            },
+            // 991: {
+            //   slidesPerView: 2,
+            // },
           }} 
         >
           {/* Map over the testiContent array to render each testimonial */}

@@ -35,7 +35,7 @@ import sponsor8 from '../assets/Sponsors/Sponsor-8.png';
 
 
 /*Testimonials*/
-import testimonial1 from '../assets/Testimonials/Pic-1.jpg';
+import testimonial1 from '../assets/Team/Management/2.jpg';
 import testimonial2 from '../assets/Testimonials/Pic-2.jpg';
 import testimonial3 from '../assets/Testimonials/Pic-3.jpg';
 import testimonial4 from '../assets/Testimonials/Pic-4.jpg';
@@ -107,6 +107,10 @@ import portfolio6Gallery4 from '../assets/Portfolio/Portfolio-Gallery/4.jpg';
 import portfolio6Gallery5 from '../assets/Portfolio/Portfolio-Gallery/5.jpg';
 import portfolio6Gallery6 from '../assets/Portfolio/Portfolio-Gallery/6.jpg';
 
+import portfolio7 from '../assets/Portfolio/Portfolio/Portfolio-7.jpg';
+import portfolio8 from '../assets/Portfolio/Portfolio/Portfolio-8.jpg';
+import portfolio9 from '../assets/Portfolio/Portfolio/Portfolio-9.jpg';
+import portfolio10 from '../assets/Portfolio/Portfolio/Portfolio-10.jpg';
 
 /*Management*/
 import team1 from '../assets/Team/Management/1.jpg';
@@ -416,6 +420,11 @@ const Images = {
     portfolio6Gallery4,
     portfolio6Gallery5,
     portfolio6Gallery6,
+
+    portfolio7,
+    portfolio8,
+    portfolio9,
+    portfolio10,
 
     /*Management*/
     team1,
