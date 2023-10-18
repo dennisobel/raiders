@@ -19,7 +19,7 @@ const Footer = () => {
         {/* About Section */}
         <div className='footer-item'>
           <Logo/>
-          <Link to='/' className='logo'><h2>About Us</h2></Link> 
+          <Link to='/' className='logo'><h2>The Academy</h2></Link> 
           <p>Rovers is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve soccer skills of young talented soccer players.</p>
           <div className='social'>
             <a href="/#"><FaFacebookF className='icon' /></a>
@@ -37,7 +37,7 @@ const Footer = () => {
               <p><FaRegCircle className='icon' /><Link to='/'>home</Link></p> 
               <p><FaRegCircle className='icon' /><Link to='/about-us'>about</Link></p>
               <p><FaRegCircle className='icon' /><Link to='/Faqs'>FAQs</Link></p> 
-              <p><FaRegCircle className='icon' /><Link to='/Team'>Team</Link></p>
+              <p><FaRegCircle className='icon' /><Link to='/Team'>Meet Our Staff</Link></p>
               {/* <p><FaRegCircle className='icon' /><Link to='/Fixtures'>Fixtures</Link></p> */}
             </div>
             <div className='links-item'> 
