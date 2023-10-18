@@ -5,6 +5,7 @@ import { contactContent } from '../../constants';
 
 import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaRegCircle } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Logo from '../Logo/Logo';
 
  
  
@@ -16,7 +17,8 @@ const Footer = () => {
       <div className='box-container'>
 
         {/* About Section */}
-        <div className='footer-item'> 
+        <div className='footer-item'>
+          <Logo/>
           <Link to='/' className='logo'><h2>About Us</h2></Link> 
           <p>Rovers is the popular and most powerful team in the Tournament. It is establish to provide an opportunity to improve soccer skills of young talented soccer players.</p>
           <div className='social'>
