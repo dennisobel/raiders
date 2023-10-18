@@ -22,7 +22,7 @@ const AboutUs = () => {
   return (
     <>
       {/* Page title */}
-      <PageTitle title={"about us"} page={"about"} />
+      <PageTitle title={"AWASI ROVERS FOOTBALL ACADEMY"} page={"about"} />
 
       <section className="about-us">
         {/* About section */}

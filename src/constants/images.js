@@ -12,7 +12,12 @@ import home3 from '../assets/Home/Home-3.jpg';
 /*About*/ 
 import about1 from '../assets/About/About-1.jpg';
 import about2 from '../assets/About/About-2.jpg';
-
+import about3 from '../assets/About/1.jpg';
+import about4 from '../assets/About/2.jpg';
+import about5 from '../assets/About/3.jpg';
+import about6 from '../assets/About/4.jpg';
+import about7 from '../assets/About/5.jpg';
+import about8 from '../assets/About/6.jpg';
 
 /*Awards*/
 import award1 from '../assets/Awards/Award-1.png';
@@ -332,6 +337,12 @@ const Images = {
     /*About*/
     about1,
     about2,
+    about3,
+    about4,
+    about5,
+    about6,
+    about7,
+    about8,
 
     /*Awards*/
     award1,

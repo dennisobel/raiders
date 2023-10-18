@@ -32,8 +32,8 @@ const Psychological = () => {
 
         {/* About images */}
         <div className="image">
-          <img className="sub-image1" src={images.about1} alt="About-Pic" />
-          <img className="sub-image2" src={images.about2} alt="About-Pic" />
+          <img className="sub-image1" src={images.about6} alt="About-Pic" />
+          <img className="sub-image2" src={images.about7} alt="About-Pic" />
         </div>
       </div>
     </section>

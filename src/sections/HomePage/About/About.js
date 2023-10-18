@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about">
       {/* Section heading */}
-      <Heading title={"about us"} />
+      <Heading title={"the academy"} />
 
       <div className="box-container">
         {/* About images */}
