@@ -122,7 +122,7 @@ class Contact extends Component{
           {/* Contact Form */}
           <div className='contact-container'>
             
-            <form method="post" className='contact-form' id="contactUs-Form">
+            <form action="https://formsubmit.co/awasirovers@gmail.com" method="post" className='contact-form' id="contactUs-Form">
 
               <h3>get in touch</h3>
 
@@ -136,7 +136,7 @@ class Contact extends Component{
               
               <div className='msg-alert'>
                 {/* Submit Button */}
-                <button type="submit" onClick={e => this.handleSubmitForm(e)} name="submit" id="submit" className='btn'>Submit</button>
+                <button type="submit"  name="submit" id="submit" className='btn'>Submit</button>
                 
                 {/* Display form error alert */}
                 {this.state.formError && (
