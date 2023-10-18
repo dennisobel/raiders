@@ -19,7 +19,7 @@ const About = () => {
 
         {/* About description */}
         <div className="content">
-          <h3>Empowering Kenyan Football Talent.</h3> {/* Heading */}
+          <h3>Who We Are.</h3> {/* Heading */}
           <div className="line"></div> {/* Divider line */}
           <p>
             We are a sports academy located in Kisumu County, Kenya currently

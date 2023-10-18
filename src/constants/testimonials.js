@@ -16,6 +16,16 @@ future. We look forward to many years of producing talent, wholesome individuals
 responsible young citizens.
         `,
   },
+  {
+    id: 1,
+    image: images.testimonial2,
+    name: "Francis Ochola",
+    title: "Head Coach",
+    content: `My main objective as a coach is to contribute to the growth and development of young talents,
+    helping them progress from grassroots football to the highest levels of competition. I want to
+    provide them with the same opportunities that shaped my own career,
+        `,
+  },
 ];
 
 export default testimonials;
