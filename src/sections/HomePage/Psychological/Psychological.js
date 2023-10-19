@@ -8,7 +8,7 @@ const Psychological = () => {
   return (
     <section className="about">
       {/* Section heading */}
-      <Heading title={"psychological"} />
+      {/* <Heading title={"psychological"} /> */}
 
       <div className="box-container">
         {/* About description */}
