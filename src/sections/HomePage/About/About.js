@@ -22,14 +22,11 @@ const About = () => {
           <h3>Who We Are.</h3> {/* Heading */}
           <div className="line"></div> {/* Divider line */}
           <p>
-            We are a sports academy located in Kisumu County, Kenya currently
-            focused on developing football talent in Kenya. We have been
-            operational since 2015 prior to our official registration in 2023.So
-            far we boast of 21 academy players from at-risk and underprivileged
-            backgrounds on active scholarships in various high schools in Kenya,
-            courtesy of their talent and academic performance. We offer free
-            football training, clinics and life skills for our academy attendees
-            made possible through donations and grants.
+            We Are a Football Academy Located in Kisumu County, Kenya Currently Focused On 
+Developing Football Talent in Kenya. We Have Been Operational Since 2015 Prior to 
+Our Official Registration in 2023. So Far We Boast 21 Academy Players from At-Risk 
+and Underprivileged Backgrounds On Active Scholarships in Various High Schools in 
+Kenya, Courtesy of Their Talent and Academic Performance.
           </p>{" "}
           {/* Description */}
           <Button link={"About-us"} title={"read more"} />{" "}
