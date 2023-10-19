@@ -75,11 +75,11 @@ const Header = (props) => {
 
         {/* Social contacts */}
         <div className='header-contacts'>
-          <a href="/#"><FaFacebookF className='icon' /></a>
-          <a href="/#"><FaGooglePlusG className='icon' /></a>
-          <a href="/#"><FaTwitter className='icon' /></a>
-          <a href="/#"><FaInstagram className='icon' /></a>
-          <a href="/#"><FaLinkedin className='icon' /></a>
+          <a href="https://www.facebook.com/AwasiRoversFootballAcademy?_rdc=2&_rdr"><FaFacebookF className='icon' /></a>
+          {/* <a href="/#"><FaGooglePlusG className='icon' /></a> */}
+          <a href="https://twitter.com/awasirovers/status/1677024942250946563"><FaTwitter className='icon' /></a>
+          {/* <a href="/#"><FaInstagram className='icon' /></a> */}
+          <a href="https://www.linkedin.com/groups/12905461/"><FaLinkedin className='icon' /></a>
         </div>
 
       </div>
