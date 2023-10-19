@@ -42,8 +42,8 @@ import sponsor8 from '../assets/Sponsors/Sponsor-8.png';
 /*Testimonials*/
 import testimonial1 from '../assets/Team/Management/2.jpg';
 import testimonial2 from '../assets/Team/Management/3.jpg';
-import testimonial3 from '../assets/Testimonials/Pic-3.jpg';
-import testimonial4 from '../assets/Testimonials/Pic-4.jpg';
+import testimonial3 from '../assets/Testimonials/4.jpg';
+import testimonial4 from '../assets/Testimonials/5.jpg';
  
 /*Cricket Teams*/
 import eagleClub from '../assets/Cricket-Teams/Eagle.jpg';

@@ -45,8 +45,8 @@ const AboutUs = () => {
           <Psychological />
           <Divider title={"Recruitment"} />
           <Recruitment />
-          <Heading title={"team management"} />
-          <Management />
+          {/* <Heading title={"team management"} />
+          <Management /> */}
         </section>
 
         {/* Tropies section */}

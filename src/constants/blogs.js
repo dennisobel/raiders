@@ -6,7 +6,7 @@ const blogs = [
     image: images.blog1,
     category: "Rovers Center",
     date: "oct 16, 2023",
-    admin: "admin",
+    admin: "Brian Gwehona",
     heading: "Awasi Rovers History",
     content:
       "We have a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
@@ -94,7 +94,7 @@ permanent home of Rovers Academy.
     image: images.blog2,
     category: "soccer club",
     date: "Oct 16, 2023",
-    admin: "admin",
+    admin: "Brian Gwehona",
     heading: "Diversity",
     content:
       "At Awasi Rovers we endeavor to build an all-inclusive academy regardless of gender, social status and any other discriminatory metric.",
@@ -161,7 +161,7 @@ behind considering we live in a highly patriarchal society where female sports l
     image: images.blog3,
     category: "Field",
     date: "Oct 16, 2023",
-    admin: "admin",
+    admin: "Brian Gwehona",
     heading: "Rovers Field",
     content:
       "One of the challenges which hindered the transition into an academy was the lack of facilities and over-reliance on third party facilities such as schools.",
