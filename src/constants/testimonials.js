@@ -4,8 +4,8 @@ const testimonials = [
   {
     id: 1,
     image: images.testimonial1,
-    name: "Dennis Bosingwa",
-    title: "Founder",
+    name: "Dennis Osingwa",
+    title: "Founder/Executive Director",
     content: `
     The journey has never been easy but we are reminded that’s what diamonds are made of. We
     have been forged in the fire, between a hammer and an anvil to bring about this wonderful 
