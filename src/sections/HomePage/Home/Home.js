@@ -29,6 +29,9 @@ const Home = () => {
                 <SwiperSlide className='home-item' key={home.id}>
                   {/* Home image */}
                   <img src={home.image} alt='home-pic' />
+                  <>
+                  {/* <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FlVLx5KVThc?si=TNuZKMcZDerLRl8-&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+                  </>
                   {/* Home content */}
                   <div className='content'>
                     <div className='text'>

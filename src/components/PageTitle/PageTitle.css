@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .page-title h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     padding-top: 4rem; /* Adjust padding for smaller screens if necessary */
   }
 }
