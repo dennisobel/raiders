@@ -79,9 +79,11 @@ const Header = (props) => {
   return (
     <nav className="header">
       {/* 1st Header Container */}
+      
       <div className="header-1">
         {/* Social contacts */}
         <div className="header-contacts">
+
           <a href="https://wa.me/254795901120" rel="noreferrer" target="_blank">
             <FaWhatsapp className="icon" />
           </a>
@@ -106,8 +108,11 @@ const Header = (props) => {
         {/* Mobile Navbar */}
         {click && isOpen && <MobileNavbar close={closeMenuBar} />}
 
+        <h1 color="blue">AWASI ROVERS</h1>
+
         {/* Desktop Navbar */}
         <div className="navbar">
+          
           {navbar.map((item) => {
             return <HeaderItem key={item.id} {...item} />;
           })}

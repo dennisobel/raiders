@@ -3,3 +3,7 @@
     height: 10rem;
     object-fit: cover;
 }   
+
+.logo h2{
+    font-size: 3rem;
+}
