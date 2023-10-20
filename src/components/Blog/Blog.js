@@ -30,7 +30,7 @@ const Blog = (props) => {
       {/* Blog image */}
       <div className='image'>
         <img src={image} alt='Blog' />
-        <div className='date'>{date.substring(0, date.indexOf(","))}</div> {/* Blog publication date */}
+        {/* <div className='date'>{date.substring(0, date.indexOf(","))}</div> */}
       </div>
 
       <div className='content'>

@@ -4,7 +4,7 @@ const testimonials = [
   {
     id: 1,
     image: images.testimonial1,
-    name: "Dennis Osingwa",
+    name: "Dennis Bosingwa",
     title: "Founder",
     content: `
     The journey has never been easy but we are reminded that’s what diamonds are made of. We

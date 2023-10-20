@@ -28,6 +28,13 @@
   padding-top: 8rem;
 }
 
+@media (max-width: 768px) {
+  .page-title h2 {
+    font-size: 3rem;
+    padding-top: 4rem; /* Adjust padding for smaller screens if necessary */
+  }
+}
+
 /* Homepage link */
 .page-title .link {
   position: absolute;

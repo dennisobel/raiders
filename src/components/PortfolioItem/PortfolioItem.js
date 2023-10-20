@@ -20,22 +20,20 @@ const PortfolioItem = (props) => {
       {/* Portfolio Content */} 
       <div className='content'> 
 
-        <div className='text'>
+        {/* <div className='text'>
 
-          {/* Portfolio Category */}
+    
           <p><span></span>{category}</p>
 
-          {/* Link to the individual Portfolio Page */}
           <Link
             to={{
               pathname: '/Portfolio/' + title,
             }}
             state={portfolio}>
-            {/* Portfolio Title */}
             <h3>{title}</h3>
           </Link>
 
-        </div>
+        </div> */}
 
         {/* Button Container */}
         <div className='btn-container'>

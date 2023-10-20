@@ -1,5 +1,6 @@
 /*Global*/
-import logo from '../assets/Logo/Logo.jpg';
+import logo from '../assets/Logo/Logo.png';
+import logo2 from '../assets/Logo/Logo2.png';
 import pageTitle from '../assets/PageTitle/PageTitle.jpg';
 
  

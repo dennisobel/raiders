@@ -1,16 +1,23 @@
-import React, { useState, useEffect } from 'react';
-import './Header.css';
+import React, { useState, useEffect } from "react";
+import "./Header.css";
 
-import { HeaderItem, MobileNavbar, Logo } from '../../components';
-import { navbar } from '../../constants';
+import { HeaderItem, MobileNavbar, Logo } from "../../components";
+import { navbar } from "../../constants";
 
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaGooglePlusG, FaRegUser, FaCartArrowDown, FaBars } from 'react-icons/fa';
-import { Link, useLocation } from 'react-router-dom';
- 
-  
- 
-const Header = (props) => { 
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedin,
+  FaGooglePlusG,
+  FaRegUser,
+  FaCartArrowDown,
+  FaBars,
+  FaWhatsapp,
+} from "react-icons/fa";
+import { Link, useLocation } from "react-router-dom";
 
+const Header = (props) => {
   const { cart } = props;
 
   const [click, setClick] = useState(false);
@@ -37,82 +44,87 @@ const Header = (props) => {
 
   // Manage On Scroll Functionality
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   });
 
-  // Manage Sticky Header 
+  // Manage Sticky Header
   useEffect(() => {
-    window.addEventListener('scroll', stickyHeader);
+    window.addEventListener("scroll", stickyHeader);
     return () => {
-      window.removeEventListener('scroll', stickyHeader);
+      window.removeEventListener("scroll", stickyHeader);
     };
   });
 
   // Add active class to header on scroll
   const stickyHeader = (e) => {
-    const header = document.querySelector('.header');
+    const header = document.querySelector(".header");
     const scrollTop = window.scrollY;
-    scrollTop >= 60 ? header.classList.add('active') : header.classList.remove('active');
+    scrollTop >= 60
+      ? header.classList.add("active")
+      : header.classList.remove("active");
   };
 
   // Handle scroll event
   const handleScroll = (e) => {
     /* Close Menubar On Scroll */
-    const navbar = document.querySelector('.navbar');
-    navbar.classList.remove('active');
+    const navbar = document.querySelector(".navbar");
+    navbar.classList.remove("active");
     setClick(false);
     setOpen(false);
   };
 
   return (
-    <nav className='header'>
-
+    <nav className="header">
       {/* 1st Header Container */}
-      <div className='header-1'>
-
+      <div className="header-1">
         {/* Social contacts */}
-        <div className='header-contacts'>
-          <a href="https://www.facebook.com/AwasiRoversFootballAcademy?_rdc=2&_rdr"><FaFacebookF className='icon' /></a>
-          {/* <a href="/#"><FaGooglePlusG className='icon' /></a> */}
-          <a href="https://twitter.com/awasirovers/status/1677024942250946563"><FaTwitter className='icon' /></a>
+        <div className="header-contacts">
+          <a href="https://wa.me/254795901120" rel="noreferrer" target="_blank">
+            <FaWhatsapp className="icon" />
+          </a>
+          <a href="https://www.facebook.com/AwasiRoversFootballAcademy?_rdc=2&_rdr" rel="noreferrer" target="_blank">
+            <FaFacebookF className="icon" />
+          </a>
+          <a href="https://twitter.com/awasirovers/status/1677024942250946563" rel="noreferrer" target="_blank">
+            <FaTwitter className="icon" />
+          </a>
           {/* <a href="/#"><FaInstagram className='icon' /></a> */}
-          <a href="https://www.linkedin.com/groups/12905461/"><FaLinkedin className='icon' /></a>
+          <a href="https://www.linkedin.com/groups/12905461/" rel="noreferrer" target="_blank">
+            <FaLinkedin className="icon" />
+          </a>
         </div>
-
       </div>
 
       {/* 2nd Header Container */}
-      <div className='header-2'>
-
+      <div className="header-2">
         {/* Logo */}
         <Logo />
 
         {/* Mobile Navbar */}
-        {(click && isOpen) && <MobileNavbar close={closeMenuBar} />}
+        {click && isOpen && <MobileNavbar close={closeMenuBar} />}
 
         {/* Desktop Navbar */}
-        <div className='navbar'>
-          {
-            navbar.map((item) => {
-              return <HeaderItem key={item.id} {...item} />
-            })
-          } 
-        </div>  
+        <div className="navbar">
+          {navbar.map((item) => {
+            return <HeaderItem key={item.id} {...item} />;
+          })}
+        </div>
 
         {/* Header Icons Container */}
-        <div className='icon-container'>
+        <div className="icon-container">
           {/* <Link to='/Login'><FaRegUser className='icon' /></Link> */}
           {/* <Link to='/Cart' className='cart-icon'><FaCartArrowDown className='icon' /><span className='badge'>{cart.length}</span></Link> */}
-          <div className='icon menu-btn' onClick={handleClick}><FaBars /></div> {/* Menu Button */}
+          <div className="icon menu-btn" onClick={handleClick}>
+            <FaBars />
+          </div>{" "}
+          {/* Menu Button */}
         </div>
-        
       </div>
-
     </nav>
   );
-}
+};
 
 export default Header;
