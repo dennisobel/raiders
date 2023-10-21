@@ -108,11 +108,10 @@ const Header = (props) => {
         {/* Mobile Navbar */}
         {click && isOpen && <MobileNavbar close={closeMenuBar} />}
 
-        <h1 color="blue">AWASI ROVERS</h1>
+        {/* <h1>AWASI ROVERS</h1> */}
 
         {/* Desktop Navbar */}
-        <div className="navbar">
-          
+        <div className="navbar">          
           {navbar.map((item) => {
             return <HeaderItem key={item.id} {...item} />;
           })}

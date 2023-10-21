@@ -13,7 +13,7 @@ const Logo = () => {
     <Link to='/' className='logo'>
 
       {/* Render the logo image */} 
-      {/* <img src={images.logo} alt='logo' /> */}
+      <img src={images.logo} alt='logo' />
       {/* <h1 style={{fontSize:""}}>AWASI ROVERS ACADEMY</h1>  */}
       
     </Link>
