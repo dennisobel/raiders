@@ -31,7 +31,7 @@ const Footer = () => {
 
         {/* Useful Links Section */}
         <div className='footer-item'> 
-          <h2>useful links</h2>
+          <h2>the academy</h2>
           <div className='info links pages'> 
             <div className='links-item'>
               <p><FaRegCircle className='icon' /><Link to='/'>home</Link></p> 
