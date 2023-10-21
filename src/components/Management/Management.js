@@ -36,6 +36,7 @@ const Management = () => {
                 name={team.name}
                 title={team.title}
                 accounts={team.accounts}
+                bio={team.bio}
               />
             );
           })
