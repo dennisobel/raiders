@@ -17,7 +17,7 @@ const management = [
         id: 2,
         image: images.team2,
         name: 'Dennis Bosingwa',
-        title: 'Founder/Executive Director',
+        title: 'Founder/Operating Director',
         accounts: { 
             facebook: '#',
             linkedin: '#',

@@ -25,12 +25,12 @@
     content: "";
     right: 45px; 
     margin: auto;
-    background-color: #ccc;
+    /* background-color: #ccc; */
 }
 
 /* Heading Before styles */
 .heading h2:before { 
-    background-color: var(--main-color);
+    /* background-color: var(--main-color); */
     left: 45px; 
     width: 90px;
 }

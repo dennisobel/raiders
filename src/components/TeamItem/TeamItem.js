@@ -22,12 +22,12 @@ const TeamItem = (props) => {
                 <img src={image} alt='Team-Pic' />
 
                 {/* Social media icons */}
-                <div className='icon-container'>
+                {/* <div className='icon-container'>
                     <a className='icon' href={accounts.facebook}><FaFacebookF /></a>
                     <a className='icon' href={accounts.linkedin}><FaLinkedin /></a>
                     <a className='icon' href={accounts.twitter}><FaTwitter /></a>
                     <a className='icon' href={accounts.instagram}><FaInstagram /></a>
-                </div>
+                </div> */}
 
             </div> 
 
