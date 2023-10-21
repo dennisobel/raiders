@@ -36,7 +36,7 @@ const Footer = () => {
             <div className='links-item'>
               <p><FaRegCircle className='icon' /><Link to='/'>home</Link></p> 
               <p><FaRegCircle className='icon' /><Link to='/about-us'>about</Link></p>
-              <p><FaRegCircle className='icon' /><Link to='/Faqs'>FAQs</Link></p> 
+              {/* <p><FaRegCircle className='icon' /><Link to='/Faqs'>FAQs</Link></p>  */}
               <p><FaRegCircle className='icon' /><Link to='/Team'>Meet Our Staff</Link></p>
               {/* <p><FaRegCircle className='icon' /><Link to='/Fixtures'>Fixtures</Link></p> */}
             </div>
