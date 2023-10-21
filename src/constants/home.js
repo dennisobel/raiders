@@ -13,7 +13,7 @@ develop responsible, cooperative, and socially aware graduates.
   },
   {
     id: 2,
-    image: images.home2,
+    image: images.home3,
     title: `It's more than a game`,
     content: `
         While our agenda involves developing talent, we stress the importance of education and life
@@ -24,7 +24,7 @@ skills, and talent development to bring out the best academy graduates.
   },
   {
     id: 3,
-    image: images.home3,
+    image: images.home2,
     title: "Developing well-rounded individuals",
     content: `
         As much as our key focus area is talent development, we equally place emphasis on life-skills,
