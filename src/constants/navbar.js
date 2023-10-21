@@ -37,7 +37,7 @@ const navbar = [
     },
     {
         id: 4,
-        mainLink : {link: '/Team/Management', title: 'Meet Our Staff'},
+        mainLink : {link: '/Team/Management', title: 'Staff'},
         subLink: [
             // {id: 1, link: '/Team', title: 'Team'},
             // {id: 2, link: '/Team/Management', title: 'Management'}, 
