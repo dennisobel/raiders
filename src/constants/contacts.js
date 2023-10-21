@@ -17,7 +17,7 @@ const contacts = [
         id: 3,
         icon: <FaMapMarkerAlt />,
         title: 'address',
-        content: ['Po Box 9-40122','awasi, kenya'],
+        content: ['Po Box 9-40122','Awasi, Kenya'],
     },
  
 ];
