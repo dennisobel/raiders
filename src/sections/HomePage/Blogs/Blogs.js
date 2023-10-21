@@ -17,7 +17,7 @@ const Blogs = () => {
     <section className='blog main' id='blog'>
 
       {/* Section heading */}
-      <Heading title={'our blogs'} />
+      <Heading title={'blogs'} />
 
       <div className='box-container'>
         {/* Render each blog */}

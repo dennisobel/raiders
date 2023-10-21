@@ -19,7 +19,7 @@ const HomeShop = (props) => {
     <section className='home-shop'>
 
       {/* Section heading */}
-      <Heading title={'our products'} /> 
+      <Heading title={'products'} /> 
 
       <div className='box-container'>
         { 

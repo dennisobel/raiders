@@ -22,7 +22,7 @@ const PlayerSlider = () => {
     <section className='players'>
 
       {/* Section heading */}
-      <Heading title={'our players'} />
+      <Heading title={'players'} />
 
       <div className='player-slider'>
 

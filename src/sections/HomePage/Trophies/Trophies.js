@@ -21,7 +21,7 @@ const Trophies = () => {
     <section className='trophies linear-bg'>
 
       {/* Section heading */}
-      <Heading title={'our trophies'} />
+      <Heading title={'trophies'} />
 
       <div className='trophy-slider'>
 

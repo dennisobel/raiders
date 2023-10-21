@@ -1,4 +1,4 @@
-import { FaBaseballBall, FaUserCog, FaTrophy, FaUserFriends, FaBookOpen, FaUser } from 'react-icons/fa';
+import { FaBaseballBall, FaUserCog, FaTrophy, FaUserFriends, FaBookOpen, FaUser, FaFootballBall } from 'react-icons/fa';
 
   
 const counter = [

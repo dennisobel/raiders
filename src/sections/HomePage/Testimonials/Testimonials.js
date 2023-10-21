@@ -24,7 +24,7 @@ const Testimonials = () => {
     <section className='testimonials'>
 
       {/* Section heading */}
-      <Heading title={'our testimonials'} />
+      <Heading title={'testimonials'} />
 
       <div className='testimonial-slider'>
 

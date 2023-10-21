@@ -12,7 +12,7 @@ const Sponsors = () => {
     <section className='sponsors'>
 
       {/* Section heading */}
-      <Heading title={'our partners'} />
+      <Heading title={'partners'} />
 
       <div className='box-container'>
         {/* Map over the sponsors array to render each sponsor */}

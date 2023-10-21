@@ -8,7 +8,7 @@ const PortfolioSection = () => {
   return (
     <section> 
       {/* Section heading */}
-      <Heading title={'our portfolio'} />
+      <Heading title={'portfolio'} />
       {/* Portfolio Component */}
       <Portfolio />
     </section>
