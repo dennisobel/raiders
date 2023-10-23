@@ -5,21 +5,21 @@ const counter = [
     { 
         id: 1, 
         icon: <FaBookOpen />,
-        title: 'Education',
+        title: 'EDUCATION',
         // count: '20',
     },
     {
         id: 2,
         // icon: <FaUserCog />,
         icon: <FaBaseballBall />,
-        title: 'Football',
+        title: 'FOOTBALL',
         // count: '2',
     },
     {
         id: 3,
         // icon: <FaUserFriends />,
         icon: <FaUser />,
-        title: 'Character',
+        title: 'CHARACTER',
         // count: '100',
     },
  

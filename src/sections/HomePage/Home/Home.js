@@ -37,7 +37,7 @@ const Home = () => {
                     <div className='text'>
                       <h3>{home.title}</h3> {/* Home title */}
                       <p>{home.content}</p> {/* Home content */}
-                      <Button link={'contact-us'} title={'contact us'} /> {/* Contact us button */}
+                      {/* <Button link={'contact-us'} title={'contact us'} />  */}
                     </div>
                   </div>
                 </SwiperSlide>

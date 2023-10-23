@@ -9,21 +9,21 @@ import products from './products';
 const navbar = [  
     {
         id: 1,
-        mainLink : {link: '/', title: 'home'},
+        mainLink : {link: '/', title: 'HOME'},
         subLink: [],
     },
     {
         id: 2,
-        mainLink : {link: '#', title: 'about'},
+        mainLink : {link: '#', title: 'ABOUT'},
         subLink: [
-            {id: 1, link: '/About-us', title: 'The Academy'},
+            {id: 1, link: '/About-us', title: 'THE ACADEMY'},
             // {id: 2, link: '/Testimonials', title: 'testimonials'}, 
-            {id: 3, link: '/Faqs', title: 'faqs'},
+            {id: 3, link: '/Faqs', title: 'FAQs'},
         ],
     },
     {
         id: 3,
-        mainLink : {link: '/Portfolio', title: 'Portfolio'},
+        mainLink : {link: '/Portfolio', title: 'PORTFOLIO'},
         subLink: [
             // {id: 1, link: '/Point-Table', title: 'Point Table'},
             // {id: 2, link: '/Events', title: 'Upcoming Events'},
@@ -37,7 +37,7 @@ const navbar = [
     },
     {
         id: 4,
-        mainLink : {link: '/Team/Management', title: 'Staff'},
+        mainLink : {link: '/Team/Management', title: 'STAFF'},
         subLink: [
             // {id: 1, link: '/Team', title: 'Team'},
             // {id: 2, link: '/Team/Management', title: 'Management'}, 
@@ -55,7 +55,7 @@ const navbar = [
     // }, 
     {
         id: 6,
-        mainLink : {link: '/Blog-list', title: 'blog'},
+        mainLink : {link: '/Blog-list', title: 'BLOG'},
         subLink: [
             // {id: 1, link: '/Blog-grid', title: 'blog grid'},
             // {id: 2, link: '/Blog-list', title: 'blog list'},
@@ -75,7 +75,7 @@ const navbar = [
     // },
     {
         id: 8,
-        mainLink : {link: '/Contact-us', title: 'contact'},
+        mainLink : {link: '/Contact-us', title: 'CONTACT'},
         subLink: [],
     },
 ];
