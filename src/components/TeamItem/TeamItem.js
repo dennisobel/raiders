@@ -102,7 +102,7 @@ const TeamItem = (props) => {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button style={{ fontSize: "18px" }} onClick={handleClose}>Go Back</Button>
+          <Button style={{ fontSize: "16px" }} onClick={handleClose}>Go Back</Button>
         </DialogActions>
       </Dialog>
     </>
