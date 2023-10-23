@@ -27,7 +27,7 @@ const BlogList = () => {
   return (
     <>
       {/* Page title */}
-      <PageTitle title={'blog list'} page={'blog list'} />
+      <PageTitle title={'blogs'} page={'blog list'} />
 
       <section className='blog list'>
 
