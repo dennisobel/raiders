@@ -39,7 +39,7 @@ const TeamItem = (props) => {
 
   return (
     <>
-      <div className="team-item" key={id} onClick={handleClickOpen}>
+      <div className="team-item" key={id}>
         {/* Team member image Container */}
         <div className="image">
           {/* Team member Picture */}
@@ -82,12 +82,15 @@ const TeamItem = (props) => {
           <h5>{title}</h5> {/* Team member title */}
         </div>
       </div>
+      
       <Dialog
         open={open}
         TransitionComponent={Transition}
         keepMounted
         onClose={handleClose}
         aria-describedby="alert-dialog-slide-description"
+        maxWidth="100vh"
+        style={{height:"1400px"}}
       >
         <DialogTitle>About {name}</DialogTitle>
         <DialogContent>
@@ -99,7 +102,7 @@ const TeamItem = (props) => {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleClose}>Ok</Button>
+          <Button onClick={handleClose}>Go Back</Button>
         </DialogActions>
       </Dialog>
     </>
