@@ -15,7 +15,7 @@ const Fixtures = () => {
     <> 
 
       {/* Page Title */}
-      <PageTitle title={'fixtures'} page={'fixtures'} />
+      <PageTitle title={'FIXTURES'} page={'fixtures'} />
 
       {/* Fixtures Section */}
       <section className='fixtures'>

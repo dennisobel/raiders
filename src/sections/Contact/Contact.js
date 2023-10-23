@@ -86,7 +86,7 @@ class Contact extends Component {
     return (
       <>
         {/* Page Title */}
-        <PageTitle title={"contact"} page={"contact"} />
+        <PageTitle title={"CONTACT"} page={"contact"} />
 
         {/* Contact Section */}
         <section className="contact" id="contact">

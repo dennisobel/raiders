@@ -16,7 +16,7 @@ const Events = () => {
   return ( 
     <>
       {/* Page Title */}
-      <PageTitle title={'Events'} page={'Events'} />
+      <PageTitle title={'EVENTS'} page={'Events'} />
 
       {/* Section for upcoming events */}
       <section className='upcoming-events'>

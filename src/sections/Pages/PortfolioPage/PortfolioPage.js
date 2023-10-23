@@ -9,7 +9,7 @@ const PortfolioPage = () => {
   return (
     <>  
       {/* Page Title */}
-      <PageTitle title={'Portfolio'} page={'Portfolio'} />
+      <PageTitle title={'PORTFOLIO'} page={'Portfolio'} />
 
       {/* Portfolio Section */}
       <section> 

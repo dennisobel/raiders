@@ -11,7 +11,7 @@ const TeamPage = () => {
     <>
     
       {/* Page title */}
-      <PageTitle title={'team'} page={'team'} />  
+      <PageTitle title={'TEAM'} page={'team'} />  
 
       <section className='team'>
         

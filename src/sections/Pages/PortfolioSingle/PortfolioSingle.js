@@ -18,7 +18,7 @@ const PortfolioSingle = () => {
   return (
     <>
       {/* Page Title */}
-      <PageTitle title={'portfolio single'} page={'portfolio single'} />
+      <PageTitle title={'PORTFOLIO'} page={'portfolio single'} />
 
       <section className='portfolio-single'>
 

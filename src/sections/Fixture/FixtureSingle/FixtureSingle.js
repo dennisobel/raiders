@@ -19,7 +19,7 @@ const FixtureSingle = () => {
     <>
 
       {/* Page Title */}
-      <PageTitle title={'fixture single'} page={'fixture single'} />
+      <PageTitle title={'FIXTURE'} page={'fixture single'} />
 
       <section className='fixture-single'>
 

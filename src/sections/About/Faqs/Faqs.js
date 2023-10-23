@@ -37,7 +37,7 @@ const Faqs = () => {
   return (
     <> 
       {/* Page title */}
-      <PageTitle title={'faqs'} page={'faqs'} />
+      <PageTitle title={'FAQS'} page={'faqs'} />
 
       <section className='faq'>
 

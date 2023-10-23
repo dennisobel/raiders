@@ -43,7 +43,7 @@ const BlogSingle = () => {
   return (
     <> 
       {/* Page title */}
-      <PageTitle title={'blog single'} page={'blog single'} />
+      <PageTitle title={'BLOG'} page={'blog single'} />
 
       {/* Blog Single Section */}
       <section className='blog-single'>

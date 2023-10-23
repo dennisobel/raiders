@@ -29,7 +29,7 @@ const BlogGrid = () => {
     <>
 
       {/* Page title */}
-      <PageTitle title={'blog grid'} page={'blog grid'} />
+      <PageTitle title={'BLOGS'} page={'blog grid'} />
 
       <section className='blog grid'>
         

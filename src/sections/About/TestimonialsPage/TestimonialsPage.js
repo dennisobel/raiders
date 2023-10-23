@@ -9,7 +9,7 @@ const TestimonialsPage = () => {
   return ( 
     <> 
       {/* Page title */}
-      <PageTitle title={'testimonials'} page={'testimonials'} />
+      <PageTitle title={'TESTIMONIALS'} page={'testimonials'} />
 
       {/* Testimonials section */}
       <Testimonials />
