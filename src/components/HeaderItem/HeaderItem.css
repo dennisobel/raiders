@@ -30,7 +30,7 @@
 
 /* Header dropdown menu button */
 .header .dropdown-menu .nav-btn {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--white);
   cursor: pointer;
 }

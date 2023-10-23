@@ -10,7 +10,7 @@ const ManagementPage = () => {
     <>
 
       {/* Page title */}
-      <PageTitle title={'MANAGEMENT'} page={'team'} />  
+      <PageTitle title={'MEET THE STAFF'} page={'team'} />  
  
       {/* Management Section */}
       <section>
