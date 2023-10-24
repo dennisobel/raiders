@@ -181,9 +181,9 @@ import blog3Comment1 from '../assets/Blog/Comments/Pic-1.jpg';
 import blog3Comment2 from '../assets/Blog/Comments/Pic-2.jpg';
 import blog3Comment3 from '../assets/Blog/Comments/Pic-3.jpg';
 
-import blog4 from '../assets/Blog/Blogs/Blog-4.jpg';
-import blog4Gallery1 from '../assets/Blog/Gallery/Library/1';
-import blog4Gallery2 from '../assets/Blog/Gallery/Library/2';
+import blog4 from '../assets/Blog/Gallery/Library/2.jpg';
+import blog4Gallery1 from '../assets/Blog/Gallery/Library/1.jpg';
+import blog4Gallery2 from '../assets/Blog/Gallery/Library/2.jpg';
 import blog4Gallery3 from '../assets/Blog/Gallery/Library/3.jpg';
 import blog4Gallery4 from '../assets/Blog/Gallery/Library/4.jpg';
 import blog4Gallery5 from '../assets/Blog/Gallery/Library/5.jpg';
