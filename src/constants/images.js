@@ -13,7 +13,7 @@ import home3 from '../assets/Home/Home-3.jpg';
 /*About*/ 
 import about1 from '../assets/About/About-1.jpg';
 import about2 from '../assets/About/About-2.jpg';
-import about3 from '../assets/About/Academy/1.jpg';
+import about3 from '../assets/About/Academy/1.jpeg';
 import about4 from '../assets/About/Academy/2.jpg';
 import about5 from '../assets/About/3.jpg';
 import about6 from '../assets/About/4.jpg';
@@ -170,7 +170,7 @@ import blog2Comment1 from '../assets/Blog/Comments/Pic-1.jpg';
 import blog2Comment2 from '../assets/Blog/Comments/Pic-2.jpg';
 import blog2Comment3 from '../assets/Blog/Comments/Pic-3.jpg';
 
-import blog3 from '../assets/Blog/Blogs/Blog-3.jpg';
+import blog3 from '../assets/Blog/Blogs/field.jpeg';
 import blog3Gallery1 from '../assets/Blog/Gallery/1.jpg';
 import blog3Gallery2 from '../assets/Blog/Gallery/2.jpg';
 import blog3Gallery3 from '../assets/Blog/Gallery/3.jpg';
