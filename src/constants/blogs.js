@@ -3,7 +3,7 @@ import { images } from "../constants";
 const blogs = [
   {
     id: 1,
-    image: images.blog2,
+    image: images.blog1,
     category: "Rovers Center",
     date: "oct 16,22023",
     admin: "Brian 2eto",
