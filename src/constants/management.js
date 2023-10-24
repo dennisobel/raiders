@@ -13,8 +13,7 @@ const management = [
       instagram: "#",
     },
     bio: `
-        Our organization is run under the able stewardship of our able CEO and Awasi Rovers Co-
-founder who boasts a wealth of knowledge and experience in the finance world, sports
+        Our organization is run under the able stewardship of our able CEO who boasts a wealth of knowledge and experience in the finance world, sports
 
 organization and leadership. His impressive professional resume includes, setting up several
 organizations and holding key positions in top institutions such World Bank Kenya, Country

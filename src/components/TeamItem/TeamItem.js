@@ -96,7 +96,7 @@ const TeamItem = (props) => {
         <DialogContent>
           <DialogContentText
             id="alert-dialog-slide-description"
-            style={{ fontSize: "18px" }}
+            style={{ fontSize: "18px", textTransform: "none" }}
           >
             {bio}
           </DialogContentText>
