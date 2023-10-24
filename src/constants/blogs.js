@@ -244,7 +244,7 @@ development phases.
   },
   {
     id: 4,
-    image: images.home2,
+    image: images.blog4,
     category: "Library",
     date: "Oct 16, 2023",
     admin: "Brian Neto",
