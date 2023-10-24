@@ -17,7 +17,16 @@ const Blogs = () => {
     <section className='blog main' id='blog'>
 
       {/* Section heading */}
-      <Heading title={'blogs'} />
+      {/* <Heading title={'blogs'} /> */}
+            <h2 style={{
+          fontWeight: "500",
+          fontSize: "4rem",  
+          color: "red",
+          textTransform: "capitalize",
+          position: "relative",
+          paddingBottom: "0.5rem",
+          textAlign: "center"
+      }}>Blogs</h2>
 
       <div className='box-container'>
         {/* Render each blog */}
