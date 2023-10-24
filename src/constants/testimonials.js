@@ -34,7 +34,7 @@ const testimonials = [
     id: 4,
     image: images.testimonial4,
     name: "Lucy",
-    title: "",
+    title: "Parent",
     content: ` am a witness to the tremendous growth of Rovers, from its humble beginnings of a handful of 
     kids to what it is today. It has touched many lives through soccer. But most importantly, with
     meager resources it has helped make education accessible for talented kids regardless of 
