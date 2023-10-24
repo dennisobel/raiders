@@ -242,6 +242,90 @@ development phases.
       },
     ],
   },
+  {
+    id: 4,
+    image: images.home2,
+    category: "Library",
+    date: "Oct 16, 2023",
+    admin: "Brian Neto",
+    heading: "Rovers Library",
+    content:
+      "It boasts a collection of donated books covering a variety of academic and recreational topics and plans to expand the digital footprint for more e-books to be on course.",
+    important:
+      " A temporary iron-sheet structure, then, Functionality was evident by the number of children who used the resources at inception.",
+    paragraph: [
+      `
+      Awasi Rovers has partnered with Muraykeeper foundation to offer academy players an avenue
+and place to study both during school calendar days, weekends, and holidays. So far, the library is
+fully stretched to capacity, and there are plans to expand it to accommodate more children. It
+boasts a collection of donated books covering a variety of academic and recreational topics and
+plans to expand the digital footprint for more e-books to be on course. In addition to this, we
+currently have one librarian who works on a voluntary basis, deputized by the coach.
+      `,
+      `
+      The community library was first set up in 2015. A temporary iron-sheet structure, then,
+Functionality was evident by the number of children who used the resources at inception. Despite
+the Covid pandemic, we were able to expand to the current permanent but leased property
+courtesy of funding from donors. However, plans are in motion to secure a bigger space to
+accommodate the ever-growing number of users. Also, there are future plans to digitize the
+library to improve access to more books remotely.
+      `,
+      `
+      Apart from serving as a venue for reading for the players, the library also offers the perfect
+“classroom” for soccer lessons. The coaches often use the whiteboards or screen game film to
+for tactical analysis. The venue also serves as a meeting venue for parents with the Academy
+staff
+      `,
+    ],
+    subSection: {
+      subHeading: "Soccer Equipment List",
+      points: [
+        "Shirts",
+        "Shorts",
+        "Pants",
+        "Shoes",
+        "Gloves",
+        "Stumps",
+        "Leg pads",
+      ],
+    },
+    gallery: [
+      { id: 1, image: images.blog4Gallery1 },
+      { id: 2, image: images.blog4Gallery2 },
+      { id: 3, image: images.blog4Gallery3 },
+      { id: 4, image: images.blog4Gallery4 },
+      { id: 5, image: images.blog4Gallery5 },
+    ],
+    tags: ["Team", "Events", "Social"],
+    comments: [
+      {
+        id: 1,
+        image: images.blog3Comment1,
+        name: "Dayle Hadlee",
+        date: "june 1st, 2023",
+        content:
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sapiente ullam esse laudantium corporis pariatur. ",
+        replies: [
+          {
+            id: 1,
+            image: images.blog3Comment2,
+            name: "Hayley Jensen",
+            date: "june 1st, 2023",
+            content:
+              "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sapiente ullam esse laudantium corporis pariatur. ",
+          },
+        ],
+      },
+      {
+        id: 2,
+        image: images.blog3Comment3,
+        name: "Jeremy Coney",
+        date: "june 1st, 2023",
+        content:
+          "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias sapiente ullam esse laudantium corporis pariatur. ",
+      },
+    ],
+  },
 ];
 
 export default blogs;
