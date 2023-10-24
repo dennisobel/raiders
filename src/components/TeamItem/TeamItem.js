@@ -48,7 +48,8 @@ const TeamItem = (props) => {
           {/* Social media icons */}
           <div className="icon-container">
             <a className="icon" href="#" onClick={handleClickOpen}>
-              <FaUserAlt />
+              {/* <FaUserAlt /> */}
+              Bio
             </a>
             {/* <a className="icon" href={accounts.linkedin}>
               <FaLinkedin />
