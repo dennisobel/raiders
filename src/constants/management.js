@@ -34,10 +34,6 @@ empowerment and talent development. Additionally, he has overseen recruitment of
 players from at-risk and underprivileged backgrounds into the program and securing for them
 active scholarships in various high schools in Kenya, courtesy of their talent and academic
 performance.
-Sports is a tool for socio-economic change world-over, both at community and individual level.
-It offers a platform for ending generational poverty, access to education, promoting healthy
-wellbeing and camaraderie. It therefore makes socio-economic sense for Awasi Rovers to invest
-in the youth.
         `,
   },
   {

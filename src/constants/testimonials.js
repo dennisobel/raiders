@@ -41,6 +41,18 @@ const testimonials = [
     gender,
         `,
   },
+  {
+    id: 5,
+    image: images.testimonial5,
+    name: "Fred Aim",
+    title: "CEO",
+    content: `
+    Sports is a tool for socio-economic change world-over, both at community and individual level.
+It offers a platform for ending generational poverty, access to education, promoting healthy
+wellbeing and camaraderie. It therefore makes socio-economic sense for Awasi Rovers to invest
+in the youth
+    `
+  }
 ];
 
 export default testimonials;

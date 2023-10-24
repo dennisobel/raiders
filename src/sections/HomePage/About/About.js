@@ -8,7 +8,17 @@ const About = () => {
   return (
     <section className="about">
       {/* Section heading */}
-      <Heading title={"the academy"} />
+      {/* <Heading title={"the academy"} /> */}
+
+      <h2 style={{
+          fontWeight: "500",
+          fontSize: "4rem",  
+          color: "red",
+          textTransform: "capitalize",
+          position: "relative",
+          paddingBottom: "0.5rem",
+          textAlign: "center"
+      }}>The Academy</h2>
 
       <div className="box-container">
         {/* About images */}

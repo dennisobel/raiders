@@ -14,11 +14,16 @@ import home3 from '../assets/Home/Home-3.jpg';
 import about1 from '../assets/About/About-1.jpg';
 import about2 from '../assets/About/About-2.jpg';
 import about3 from '../assets/About/Academy/1.jpeg';
-import about4 from '../assets/About/Academy/2.jpg';
-import about5 from '../assets/About/3.jpg';
-import about6 from '../assets/About/4.jpg';
-import about7 from '../assets/About/5.jpg';
-import about8 from '../assets/About/6.jpg';
+import coach2 from '../assets/About/Academy/2.jpeg';
+import about4 from '../assets/About/Physical/1.jpeg';
+import about5 from '../assets/About/Physical/2.jpeg';
+import about6 from '../assets/About/Tactical/2.jpeg';
+import about7 from '../assets/About/Technical/1.jpeg';
+import about8 from '../assets/About/Technical/2.jpeg';
+import tactical1 from '../assets/About/Tactical/1.jpg';
+import tactical2 from '../assets/About/Tactical/2.jpeg';
+import psychological1 from '../assets/About/Psychological/1.jpeg';
+import recruitment1 from '../assets/About/Recruitment/2.jpeg';
 
 /*Awards*/
 import award1 from '../assets/Awards/Award-1.png';
@@ -45,6 +50,8 @@ import testimonial1 from '../assets/Team/Management/2.jpg';
 import testimonial2 from '../assets/Team/Management/3.jpg';
 import testimonial3 from '../assets/Testimonials/4.jpg';
 import testimonial4 from '../assets/Testimonials/5.jpg';
+import testimonial5 from '../assets/Team/Management/1.jpg';
+
  
 /*Cricket Teams*/
 import eagleClub from '../assets/Cricket-Teams/Eagle.jpg';
@@ -339,12 +346,16 @@ const Images = {
     about1,
     about2,
     about3,
+    coach2,
     about4,
     about5,
     about6,
     about7,
     about8,
-
+    tactical1,
+    tactical2,
+    psychological1,
+    recruitment1,
     /*Awards*/
     award1,
     award2,
@@ -368,6 +379,7 @@ const Images = {
     testimonial2,
     testimonial3,
     testimonial4,
+    testimonial5,
 
     /*Cricket Teams*/
     eagleClub,
