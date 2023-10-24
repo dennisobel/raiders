@@ -246,7 +246,7 @@ development phases.
     id: 4,
     image: images.blog4,
     category: "Library",
-    date: "Oct 16, 2023",
+    date: "Oct 24, 2023",
     admin: "Brian Neto",
     heading: "Rovers Library",
     content:
