@@ -167,12 +167,16 @@ import blog1Comment2 from '../assets/Blog/Comments/Pic-2.jpg';
 import blog1Comment3 from '../assets/Blog/Comments/Pic-3.jpg';
 
 import blog2 from '../assets/Blog/Blogs/Blog-2.jpg';
-import blog2Gallery1 from '../assets/Blog/Gallery/Diversity/1.jpg';
-import blog2Gallery2 from '../assets/Blog/Gallery/Diversity/2.jpg';
-import blog2Gallery3 from '../assets/Blog/Gallery/Diversity/3.jpg';
-import blog2Gallery4 from '../assets/Blog/Gallery/4.jpg';
-import blog2Gallery5 from '../assets/Blog/Gallery/5.jpg';
-import blog2Gallery6 from '../assets/Blog/Gallery/6.jpg';
+import blog2Gallery1 from '../assets/Blog/Gallery/Diversity/1.jpeg';
+import blog2Gallery2 from '../assets/Blog/Gallery/Diversity/2.jpeg';
+import blog2Gallery3 from '../assets/Blog/Gallery/Diversity/3.jpeg';
+import blog2Gallery4 from '../assets/Blog/Gallery/Diversity/4.jpeg';
+import blog2Gallery5 from '../assets/Blog/Gallery/Diversity/5.jpeg';
+import blog2Gallery6 from '../assets/Blog/Gallery/Diversity/6.jpeg';
+import blog2Gallery7 from '../assets/Blog/Gallery/Diversity/7.jpeg';
+import blog2Gallery8 from '../assets/Blog/Gallery/Diversity/8.jpeg';
+import blog2Gallery9 from '../assets/Blog/Gallery/Diversity/9.jpeg';
+import blog2Gallery10 from '../assets/Blog/Gallery/Diversity/10.jpeg';
 import blog2Comment1 from '../assets/Blog/Comments/Pic-1.jpg';
 import blog2Comment2 from '../assets/Blog/Comments/Pic-2.jpg';
 import blog2Comment3 from '../assets/Blog/Comments/Pic-3.jpg';
@@ -497,6 +501,10 @@ const Images = {
     blog2Gallery4,
     blog2Gallery5,
     blog2Gallery6,
+    blog2Gallery7,
+    blog2Gallery8,
+    blog2Gallery9,
+    blog2Gallery10,
     blog2Comment1,
     blog2Comment2,
     blog2Comment3,

@@ -3,16 +3,16 @@ import { images } from "../constants";
 const blogs = [
   {
     id: 1,
-    image: images.blog1,
+    image: images.blog2,
     category: "Rovers Center",
-    date: "oct 16, 2023",
-    admin: "Brian Neto",
+    date: "oct 16,22023",
+    admin: "Brian 2eto",
     heading: "Awasi Rovers History",
-    content:
-      "We have a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
-    important:
-      "We have a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
-    paragraph: [
+    content2:
+      "We h2ve a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
+    importa2t:
+      "We h2ve a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
+    paragrap2: [
       `
             We have a storied history which among other things involved, is founded on humble beginnings
 stretching back 10 years ago. At inception, it constituted a random assembly of children being
@@ -92,7 +92,7 @@ permanent home of Rovers Academy.
   {
     id: 2,
     image: images.blog2,
-    category: "soccer club",
+    category: "Awasi Rovers Academy",
     date: "Oct 16, 2023",
     admin: "Brian Neto",
     heading: "Diversity",
@@ -122,9 +122,16 @@ behind considering we live in a highly patriarchal society where female sports l
       ],
     },
     gallery: [
-      { id: 1, image: images.blog1Gallery4 },
-      { id: 2, image: images.blog1Gallery5 },
-      { id: 3, image: images.blog1Gallery6 },
+      { id: 1, image: images.blog2Gallery1 },
+      { id: 2, image: images.blog2Gallery2 },
+      { id: 3, image: images.blog2Gallery3 },
+      { id: 4, image: images.blog2Gallery4 },
+      { id: 5, image: images.blog2Gallery5 },
+      { id: 6, image: images.blog2Gallery6 },
+      { id: 7, image: images.blog2Gallery7 },
+      { id: 8, image: images.blog2Gallery8 },
+      { id: 9, image: images.blog2Gallery9 },
+      { id: 10, image: images.blog2Gallery10 },
     ],
     tags: ["Team", "Tournaments", "Sponsorship"],
     comments: [
