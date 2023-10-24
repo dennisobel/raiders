@@ -8,7 +8,7 @@ const blogs = [
     date: "oct 16,22023",
     admin: "Brian 2eto",
     heading: "Awasi Rovers History",
-    content2:
+    content:
       "We h2ve a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
     importa2t:
       "We h2ve a storied history which among other things involved, is founded on humble beginnings stretching back 10 years ago.",
