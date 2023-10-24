@@ -44,8 +44,8 @@ in the youth.
   {
     id: 2,
     image: images.team2,
-    name: "Dennis Bosingwa",
-    title: "Founder/Operating Director",
+    name: "Dennis Bosingwa", 
+    title: "Founder/Operations Director",
     accounts: {
       facebook: "#",
       linkedin: "#",

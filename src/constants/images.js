@@ -148,21 +148,21 @@ import player16 from '../assets/Team/Players/16.jpg';
 
 
 /*Blogs*/
-import blog1 from '../assets/Blog/Blogs/Blog-1.jpg';
-import blog1Gallery1 from '../assets/Blog/Gallery/1.jpg';
-import blog1Gallery2 from '../assets/Blog/Gallery/2.jpg';
-import blog1Gallery3 from '../assets/Blog/Gallery/3.jpg';
-import blog1Gallery4 from '../assets/Blog/Gallery/4.jpg';
-import blog1Gallery5 from '../assets/Blog/Gallery/5.jpg';
+import blog1 from '../assets/Blog/Gallery/History/1.jpg';
+import blog1Gallery1 from '../assets/Blog/Gallery/History/5.jpg';
+import blog1Gallery2 from '../assets/Blog/Gallery/History/2.jpg';
+import blog1Gallery3 from '../assets/Blog/Gallery/History/3.jpg';
+import blog1Gallery4 from '../assets/Blog/Gallery/History/4.jpg';
+import blog1Gallery5 from '../assets/Blog/Gallery/History/5.jpg';
 import blog1Gallery6 from '../assets/Blog/Gallery/6.jpg';
 import blog1Comment1 from '../assets/Blog/Comments/Pic-1.jpg';
 import blog1Comment2 from '../assets/Blog/Comments/Pic-2.jpg';
 import blog1Comment3 from '../assets/Blog/Comments/Pic-3.jpg';
 
 import blog2 from '../assets/Blog/Blogs/Blog-2.jpg';
-import blog2Gallery1 from '../assets/Blog/Gallery/1.jpg';
-import blog2Gallery2 from '../assets/Blog/Gallery/2.jpg';
-import blog2Gallery3 from '../assets/Blog/Gallery/3.jpg';
+import blog2Gallery1 from '../assets/Blog/Gallery/Diversity/1.jpg';
+import blog2Gallery2 from '../assets/Blog/Gallery/Diversity/2.jpg';
+import blog2Gallery3 from '../assets/Blog/Gallery/Diversity/3.jpg';
 import blog2Gallery4 from '../assets/Blog/Gallery/4.jpg';
 import blog2Gallery5 from '../assets/Blog/Gallery/5.jpg';
 import blog2Gallery6 from '../assets/Blog/Gallery/6.jpg';
