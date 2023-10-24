@@ -26,7 +26,8 @@ import tactical1 from '../assets/About/Tactical/1.jpg';
 import tactical2 from '../assets/About/Tactical/2.jpeg';
 import psychological1 from '../assets/About/Psychological/1.jpeg';
 import psychological2 from '../assets/About/Psychological/2.jpeg';
-import recruitment1 from '../assets/About/Recruitment/2.jpeg';
+import recruitment1 from '../assets/About/Recruitment/1.jpeg';
+import recruitment2 from '../assets/About/Recruitment/2.jpeg';
 
 /*Awards*/
 import award1 from '../assets/Awards/Award-1.png';
@@ -364,6 +365,7 @@ const Images = {
     psychological1,
     psychological2,
     recruitment1,
+    recruitment2,
     /*Awards*/
     award1,
     award2,
