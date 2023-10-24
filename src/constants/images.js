@@ -13,8 +13,8 @@ import home3 from '../assets/Home/Home-3.jpg';
 /*About*/ 
 import about1 from '../assets/About/About-1.jpg';
 import about2 from '../assets/About/About-2.jpg';
-import about3 from '../assets/About/1.jpg';
-import about4 from '../assets/About/2.jpg';
+import about3 from '../assets/About/Academy/1.jpg';
+import about4 from '../assets/About/Academy/2.jpg';
 import about5 from '../assets/About/3.jpg';
 import about6 from '../assets/About/4.jpg';
 import about7 from '../assets/About/5.jpg';
