@@ -3,6 +3,8 @@ import logo from '../assets/Logo/Logo.png';
 import logo2 from '../assets/Logo/Logo2.png';
 import pageTitle from '../assets/PageTitle/PageTitle.jpg';
 
+import Football from "../assets/Counter/Football.png"
+
  
 /*Home*/ 
 import home1 from '../assets/Home/Home-1.jpg'; 
@@ -660,6 +662,8 @@ const Images = {
     product9Gallery4,
     product9Review1,
     product9Review2,
+
+    Football
 
 };
 
