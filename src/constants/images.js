@@ -33,11 +33,11 @@ import award6 from '../assets/Awards/Award-6.png';
 import sponsor1 from '../assets/Sponsors/Sponsor-1.png';
 import sponsor2 from '../assets/Sponsors/Sponsor-2.png';
 import sponsor3 from '../assets/Sponsors/Sponsor-3.png';
-import sponsor4 from '../assets/Sponsors/Sponsor-4.png';
-import sponsor5 from '../assets/Sponsors/Sponsor-5.png';
-import sponsor6 from '../assets/Sponsors/Sponsor-6.png';
-import sponsor7 from '../assets/Sponsors/Sponsor-7.png';
-import sponsor8 from '../assets/Sponsors/Sponsor-8.png';
+// import sponsor4 from '../assets/Sponsors/Sponsor-4.png';
+// import sponsor5 from '../assets/Sponsors/Sponsor-5.png';
+// import sponsor6 from '../assets/Sponsors/Sponsor-6.png';
+// import sponsor7 from '../assets/Sponsors/Sponsor-7.png';
+// import sponsor8 from '../assets/Sponsors/Sponsor-8.png';
 
 
 /*Testimonials*/
@@ -357,11 +357,11 @@ const Images = {
     sponsor1,
     sponsor2,
     sponsor3,
-    sponsor4,
-    sponsor5,
-    sponsor6,
-    sponsor7,
-    sponsor8,
+    // sponsor4,
+    // sponsor5,
+    // sponsor6,
+    // sponsor7,
+    // sponsor8,
 
     /*Testimonials*/
     testimonial1,
