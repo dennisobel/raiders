@@ -22,10 +22,10 @@ const TeamPage = () => {
         </div>
 
         {/* Team players section */}
-        <div className='players'>
-          <Heading title={'team players'} /> {/* Section heading */}
+        {/* <div className='players'>
+          <Heading title={'team players'} /> 
           <Players />
-        </div>
+        </div> */}
 
       </section>
 
